@@ -5,6 +5,7 @@ to log workouts, track PRs, import history, and chat with the gym. Offline-first
 the source of truth, the server is a backup.
 
 > **Status: ✅ SHIPPED (2026-11-17).** All 9 phases complete. Stella Scenario acceptance test passed.
+> **Waiting:** James for Apple App Store upload.
 
 ---
 
