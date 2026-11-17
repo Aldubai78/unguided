@@ -1,0 +1,398 @@
+[
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Overhead Squat",
+      "weight": 50.0,
+      "time_value": null,
+      "achieved_at": "2026-08-21T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Overhead Squat",
+      "weight": 50.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Squat Snatch",
+      "weight": 30.0,
+      "time_value": null,
+      "achieved_at": "2026-08-03T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Squat Snatch",
+      "weight": 30.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Thruster",
+      "weight": 85.0,
+      "time_value": null,
+      "achieved_at": "2025-12-11T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Thruster",
+      "weight": 85.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Split Snatch",
+      "weight": 67.5,
+      "time_value": null,
+      "achieved_at": "2025-09-19T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Split Snatch",
+      "weight": 67.5,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Shoulder Press",
+      "weight": 61.0,
+      "time_value": null,
+      "achieved_at": "2025-09-03T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Shoulder Press",
+      "weight": 61.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Back Squat",
+      "weight": 143.0,
+      "time_value": null,
+      "achieved_at": "2025-09-02T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Back Squat",
+      "weight": 143.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Deadlift",
+      "weight": 184.0,
+      "time_value": null,
+      "achieved_at": "2025-09-01T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Deadlift",
+      "weight": 184.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Power Snatch",
+      "weight": 62.5,
+      "time_value": null,
+      "achieved_at": "2025-10-09T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Power Snatch",
+      "weight": 62.5,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Power Clean",
+      "weight": 100.0,
+      "time_value": null,
+      "achieved_at": "2025-10-05T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Power Clean",
+      "weight": 100.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Deadlift",
+      "weight": 175.0,
+      "time_value": null,
+      "achieved_at": "2025-08-29T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Deadlift",
+      "weight": 175.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Bench Press",
+      "weight": 102.5,
+      "time_value": null,
+      "achieved_at": "2025-08-25T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Bench Press",
+      "weight": 102.5,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Squat Clean",
+      "weight": 100.0,
+      "time_value": null,
+      "achieved_at": "2025-08-18T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Squat Clean",
+      "weight": 100.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Diane",
+      "weight": null,
+      "time_value": 444,
+      "achieved_at": "2025-12-10T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Diane",
+      "weight": null,
+      "time_value": 444
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Thruster",
+      "weight": 82.5,
+      "time_value": null,
+      "achieved_at": "2025-07-23T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Thruster",
+      "weight": 82.5,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Clean and Jerk",
+      "weight": 92.5,
+      "time_value": null,
+      "achieved_at": "2025-07-06T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Clean and Jerk",
+      "weight": 92.5,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Push Press",
+      "weight": 87.5,
+      "time_value": null,
+      "achieved_at": "2025-06-29T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Push Press",
+      "weight": 87.5,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Front Squat",
+      "weight": 115.0,
+      "time_value": null,
+      "achieved_at": "2025-06-11T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Front Squat",
+      "weight": 115.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Hang Power Clean",
+      "weight": 95.0,
+      "time_value": null,
+      "achieved_at": "2025-06-11T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Hang Power Clean",
+      "weight": 95.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Push Jerk",
+      "weight": 82.5,
+      "time_value": null,
+      "achieved_at": "2025-02-19T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Push Jerk",
+      "weight": 82.5,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Randy",
+      "weight": null,
+      "time_value": 504,
+      "achieved_at": "2023-11-08T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Randy",
+      "weight": null,
+      "time_value": 504
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Annie",
+      "weight": null,
+      "time_value": 504,
+      "achieved_at": "2021-09-25T00:00:00.000Z"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Annie",
+      "weight": null,
+      "time_value": 504
+    }
+  },
+  {
+    "kind": "real_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Squat Snatch",
+      "weight": 37.0,
+      "time_value": null,
+      "achieved_at": "2026-10-01"
+    },
+    "expected": {
+      "member_id": 7,
+      "lift": "Squat Snatch",
+      "weight": 37.0,
+      "time_value": null
+    }
+  },
+  {
+    "kind": "baseline",
+    "input": {
+      "member_id": 7,
+      "lift": "Back Squat",
+      "weight": 100
+    },
+    "expected": {
+      "result": true
+    }
+  },
+  {
+    "kind": "non_beating",
+    "input": {
+      "member_id": 7,
+      "lift": "Back Squat",
+      "weight": 90
+    },
+    "expected": {
+      "rejected": true
+    }
+  },
+  {
+    "kind": "beating",
+    "input": {
+      "member_id": 7,
+      "lift": "Back Squat",
+      "weight": 150
+    },
+    "expected": {
+      "result": true
+    }
+  },
+  {
+    "kind": "time_pr",
+    "input": {
+      "member_id": 7,
+      "lift": "Annie",
+      "time_value": 480
+    },
+    "expected": {
+      "result": true
+    }
+  }
+]

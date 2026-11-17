@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Unguided",
+    "slug": "unguided",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aldubai.opengym"
+    },
+    "android": {
+      "package": "com.aldubai.opengym",
+      "adaptiveIcon": {
+        "backgroundColor": "#1a1a2e",
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-secure-store",
+      "./plugins/withDevServerPort",
+      "expo-audio",
+      "expo-asset",
+      "expo-status-bar"
+    ]
+  }
+}

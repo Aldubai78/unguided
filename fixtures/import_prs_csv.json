@@ -1,0 +1,542 @@
+[
+  {
+    "kind": "weights_basic",
+    "input": {
+      "csv": "21/09/26, Back Squat, 190\n22/09/26, Bench Press, 120\n23/09/26, Deadlift, 250",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 3,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "lift": "Bench Press",
+          "weight": 120.0,
+          "time_value": null,
+          "achieved_at": "2026-09-22T00:00:00.000Z"
+        },
+        {
+          "lift": "Deadlift",
+          "weight": 250.0,
+          "time_value": null,
+          "achieved_at": "2026-09-23T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "time_basic",
+    "input": {
+      "csv": "21/09/26, Fran, 5:34\n22/09/26, 12 Minute Run, 1:02:33\n23/09/26, AMRAP, 0:59",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 3,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Fran",
+          "weight": null,
+          "time_value": 334,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "lift": "12 Minute Run",
+          "weight": null,
+          "time_value": 3753,
+          "achieved_at": "2026-09-22T00:00:00.000Z"
+        },
+        {
+          "lift": "AMRAP",
+          "weight": null,
+          "time_value": 59,
+          "achieved_at": "2026-09-23T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "header_skip",
+    "input": {
+      "csv": "date, lift, weight\n21/09/26, Back Squat, 190\n22/09/26, Bench Press, 120",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 2,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "lift": "Bench Press",
+          "weight": 120.0,
+          "time_value": null,
+          "achieved_at": "2026-09-22T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "carry_forward",
+    "input": {
+      "csv": "21/09/26, Back Squat, 190\n, Bench Press, 120\n, Deadlift, 250",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 3,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "lift": "Bench Press",
+          "weight": 120.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "lift": "Deadlift",
+          "weight": 250.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "first_row_blank_date_today",
+    "input": {
+      "csv": ", Back Squat, 190\n, Bench Press, 120",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 2,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-10-27T00:00:00.000Z"
+        },
+        {
+          "lift": "Bench Press",
+          "weight": 120.0,
+          "time_value": null,
+          "achieved_at": "2026-10-27T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "no_year_default",
+    "input": {
+      "csv": "14 June, Back Squat, 190\n15 June, Bench Press, 120",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 1,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Bench Press",
+          "weight": 120.0,
+          "time_value": null,
+          "achieved_at": "2026-10-27T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "lift_dash_blank",
+    "input": {
+      "csv": "21/09/26, Back Squat, 190\n22/09/26, -, 120\n23/09/26, , 130",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 1,
+      "skipped": 2,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "value_dash_blank",
+    "input": {
+      "csv": "21/09/26, Back Squat, 190\n22/09/26, Bench Press, -\n23/09/26, Deadlift, ",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 1,
+      "skipped": 2,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "kg_suffix",
+    "input": {
+      "csv": "21/09/26, Back Squat, 190 kg\n22/09/26, Bench Press, 122.5kg",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 1,
+      "skipped": 0,
+      "errors": [
+        {
+          "line": 2,
+          "reason": "unparseable value"
+        }
+      ],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "bad_time",
+    "input": {
+      "csv": "21/09/26, Fran, 5:75\n22/09/26, Fran, 1:2:3:4\n23/09/26, Fran, abc\n24/09/26, Fran, 5:34",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "raised": "seconds must be 0-59",
+      "rows": []
+    }
+  },
+  {
+    "kind": "bad_weight",
+    "input": {
+      "csv": "21/09/26, Back Squat, abc\n22/09/26, Bench Press, 0\n23/09/26, Deadlift, -5\n24/09/26, Back Squat, 190",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 1,
+      "skipped": 0,
+      "errors": [
+        {
+          "line": 1,
+          "reason": "unparseable value"
+        },
+        {
+          "line": 2,
+          "reason": "weight must be positive"
+        },
+        {
+          "line": 3,
+          "reason": "weight must be positive"
+        }
+      ],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-24T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "dup_in_file",
+    "input": {
+      "csv": "21/09/26, Back Squat, 190\n21/09/26, Back Squat, 190\n21/09/26,  back squat , 190\n22/09/26, Back Squat, 200",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 2,
+      "skipped": 2,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "lift": "Back Squat",
+          "weight": 200.0,
+          "time_value": null,
+          "achieved_at": "2026-09-22T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "dedup_existing",
+    "input": {
+      "csv": "21/09/26, Back Squat, 190\n22/09/26, Back Squat, 200",
+      "default_year": 2026,
+      "existing": [
+        [
+          "Back Squat",
+          190,
+          null,
+          "2026-09-21T00:00:00.000Z"
+        ]
+      ],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 2,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "lift": "Back Squat",
+          "weight": 200.0,
+          "time_value": null,
+          "achieved_at": "2026-09-22T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "ymd_swap",
+    "input": {
+      "csv": "2026-14-06, Back Squat, 190\n2026-06-14, Bench Press, 120",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 2,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-06-14T00:00:00.000Z"
+        },
+        {
+          "lift": "Bench Press",
+          "weight": 120.0,
+          "time_value": null,
+          "achieved_at": "2026-06-14T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "two_digit_year",
+    "input": {
+      "csv": "14/06/24, Back Squat, 190",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 1,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2024-06-14T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "ordinal",
+    "input": {
+      "csv": "14th June, Back Squat, 190",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 0,
+      "skipped": 0,
+      "errors": [],
+      "rows": []
+    }
+  },
+  {
+    "kind": "decimal_weight",
+    "input": {
+      "csv": "21/09/26, Back Squat, 187.5",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 1,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 187.5,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "empty_lines",
+    "input": {
+      "csv": "21/09/26, Back Squat, 190\n\n22/09/26, Bench Press, 120\n\n",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 2,
+      "skipped": 0,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Back Squat",
+          "weight": 190.0,
+          "time_value": null,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "lift": "Bench Press",
+          "weight": 120.0,
+          "time_value": null,
+          "achieved_at": "2026-09-22T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "short_rows",
+    "input": {
+      "csv": "21/09/26, Back Squat\n22/09/26, Bench Press, 120",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 1,
+      "skipped": 1,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "Bench Press",
+          "weight": 120.0,
+          "time_value": null,
+          "achieved_at": "2026-09-22T00:00:00.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "time_hour",
+    "input": {
+      "csv": "21/09/26, Run, 1:05:30\n22/09/26, Run, 1:60:30\n23/09/26, Run, 0:61",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "raised": "time format must be H:MM:SS",
+      "rows": []
+    }
+  },
+  {
+    "kind": "dedup_case_ws",
+    "input": {
+      "csv": "21/09/26,  FRAN  , 5:34\n21/09/26, Fran, 5:34\n21/09/26, Fran, 5:35",
+      "default_year": 2026,
+      "existing": [],
+      "fixed_today": "2026-10-27"
+    },
+    "expected": {
+      "imported": 2,
+      "skipped": 1,
+      "errors": [],
+      "rows": [
+        {
+          "lift": "FRAN",
+          "weight": null,
+          "time_value": 334,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        },
+        {
+          "lift": "Fran",
+          "weight": null,
+          "time_value": 335,
+          "achieved_at": "2026-09-21T00:00:00.000Z"
+        }
+      ]
+    }
+  }
+]

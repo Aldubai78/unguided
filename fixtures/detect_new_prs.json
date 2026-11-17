@@ -1,0 +1,115 @@
+[
+  {
+    "input": {
+      "sets": [
+        {
+          "lift": "Back Squat",
+          "weight": 105
+        }
+      ]
+    },
+    "expected": [
+      "Back Squat"
+    ]
+  },
+  {
+    "input": {
+      "sets": [
+        {
+          "lift": "Back Squat",
+          "weight": 90
+        }
+      ]
+    },
+    "expected": []
+  },
+  {
+    "input": {
+      "sets": [
+        {
+          "lift": "Back Squat",
+          "weight": 100
+        }
+      ]
+    },
+    "expected": []
+  },
+  {
+    "input": {
+      "sets": [
+        {
+          "lift": "Bench Press",
+          "weight": 80.5
+        }
+      ]
+    },
+    "expected": [
+      "Bench Press"
+    ]
+  },
+  {
+    "input": {
+      "sets": [
+        {
+          "lift": "Deadlift",
+          "weight": 250
+        },
+        {
+          "lift": "Deadlift",
+          "weight": 240
+        }
+      ]
+    },
+    "expected": [
+      "Deadlift"
+    ]
+  },
+  {
+    "input": {
+      "sets": [
+        {
+          "lift": "New Lift",
+          "weight": 10
+        }
+      ]
+    },
+    "expected": [
+      "New Lift"
+    ]
+  },
+  {
+    "input": {
+      "sets": [
+        {
+          "lift": "Back Squat",
+          "weight": "110"
+        }
+      ]
+    },
+    "expected": [
+      "Back Squat"
+    ]
+  },
+  {
+    "input": {
+      "sets": [
+        {
+          "lift": "Back Squat",
+          "weight": "junk"
+        }
+      ]
+    },
+    "expected": []
+  },
+  {
+    "input": {
+      "sets": [
+        {
+          "lift": "",
+          "weight": 50
+        }
+      ]
+    },
+    "expected": []
+  }
+]

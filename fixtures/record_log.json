@@ -1,0 +1,6480 @@
+[
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"95+10 \\u00d75 FS\", \"c2\": \"4@155\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-06-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"135+20 \\u00d75 DL\", \"c2\": \"3@275\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-06-04T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DB bench\", \"c2\": \"8@35\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-06-04T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x4 BS\", \"c2\": \"4@195 2@205\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-06-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x IBP\", \"c2\": \"5@85 2@90\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-06-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"3/6 fsbs\", \"c2\": \"2&6@185\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-06-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x8 DL+ lunge\", \"c2\": \"215x3 225 235, 20lb\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-06-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"95+10 x5 FS\", \"c2\": \"5x5 @ 155\", \"c3\": \"aim sets at 165\"}]",
+      "notes": "aim sets at 165",
+      "completed_at": "2024-06-14T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"135+20 x5 DL\", \"c2\": \"2x5 @ 275\", \"c3\": \"aim 3x5 @ 275\"}]",
+      "notes": "aim 3x5 @ 275",
+      "completed_at": "2024-06-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DB bench\", \"c2\": \"5x8 @40\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2024-06-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x4 BS\", \"c2\": \"6x4 @ 195\", \"c3\": \"move on. maybe 2@185 2@195 2@205\"}]",
+      "notes": "move on. maybe 2@185 2@195 2@205",
+      "completed_at": "2024-06-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DB IBP\", \"c2\": \"6x8 @30\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2024-06-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x8 DL\", \"c2\": \"215x2 225 235x2\", \"c3\": \"next 3@235\"}]",
+      "notes": "next 3@235",
+      "completed_at": "2024-06-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DBL DB lunge\", \"c2\": \"5x20 @ 10kg\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2024-06-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 fs/bs\", \"c2\": \"2x 3/6 @ 185\", \"c3\": \"aim 3x 3/6 @ 185\"}]",
+      "notes": "aim 3x 3/6 @ 185",
+      "completed_at": "2024-06-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"3x8 FS\", \"c2\": \"155. class wod\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-06-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"135+20 x5 DL\", \"c2\": \"1x5 @265\", \"c3\": \"repeat above. not a good day\"}]",
+      "notes": "repeat above. not a good day",
+      "completed_at": "2024-06-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 6x5\", \"c2\": \"4x5@125\", \"c3\": \"failed 135 at 2, try again\"}]",
+      "notes": "failed 135 at 2, try again",
+      "completed_at": "2024-06-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x4 BS\", \"c2\": \"2x4@205\", \"c3\": \"185, 195, 4x4@205\"}]",
+      "notes": "185, 195, 4x4@205",
+      "completed_at": "2024-06-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x8 DL\", \"c2\": \"3x8@235\", \"c3\": \"5x8@235\"}]",
+      "notes": "5x8@235",
+      "completed_at": "2024-06-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DB lunge\", \"c2\": \"in class\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-06-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 fs/bs\", \"c2\": \"3x 3/6 @ 85\", \"c3\": \"aim for 5x@85\"}]",
+      "notes": "aim for 5x@85",
+      "completed_at": "2024-07-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"45+5 x5 FS\", \"c2\": \"5x5 @ 75\", \"c3\": \"aim for sets @80\"}]",
+      "notes": "aim for sets @80",
+      "completed_at": "2024-07-04T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 3 EMOMx10\", \"c2\": \"5@ 115 3@122.5 1@130 1@135\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-07-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x4 BS\", \"c2\": \"4x4 @95\", \"c3\": \"aim 2x4 @ 97.5\"}]",
+      "notes": "aim 2x4 @ 97.5",
+      "completed_at": "2024-07-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"5x8 @105(235)\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2024-07-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 fs/bs\", \"c2\": \"3x 3/6 @ 85\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-07-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"45+5 x5 FS\", \"c2\": \"3x5 @ 80\", \"c3\": \"aim for 5x5 @ 80\"}]",
+      "notes": "aim for 5x5 @ 80",
+      "completed_at": "2024-07-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"60+10 DL x5\", \"c2\": \"1x5 @ 130\", \"c3\": \"aim 3x5 @ 130\"}]",
+      "notes": "aim 3x5 @ 130",
+      "completed_at": "2024-07-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x8 DBBP @20\", \"c2\": \"sets at 22.5?\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-07-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"4x 8/8 BSS @10\", \"c2\": \"increase\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-07-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x4 BS\", \"c2\": \"2x4@87.5,92.5,97.5\", \"c3\": \"aim for 4x4@ 97.5\"}]",
+      "notes": "aim for 4x4@ 97.5",
+      "completed_at": "2024-07-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"95,100,105,2@110\", \"c3\": \"aim for more at 110\"}]",
+      "notes": "aim for more at 110",
+      "completed_at": "2024-07-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 fs/bs\", \"c2\": \"1x 3/6 @90\", \"c3\": \"aim 2x 3/6 @ 90\"}]",
+      "notes": "aim 2x 3/6 @ 90",
+      "completed_at": "2024-07-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"casual BS\", \"c2\": \"5x5@75\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-07-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP 5x8\", \"c2\": \"3x8@12.5 2x8@15\", \"c3\": \"aim for 5x8@15\"}]",
+      "notes": "aim for 5x8@15",
+      "completed_at": "2024-07-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"1RM DL\", \"c2\": \"2 mile run, 3x60 3x100 2x120 1x140 1x160\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-07-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"10x2 FS\", \"c2\": \"7@85 2@90 1x4@95\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-07-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"100, 105, 110, 115, 120\", \"c3\": \"aim for 2@ 120\"}]",
+      "notes": "aim for 2@ 120",
+      "completed_at": "2024-07-31T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"3x5 @ 60.\", \"c3\": \"top set 65\"}]",
+      "notes": "top set 65",
+      "completed_at": "2024-07-31T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 fs/bs\", \"c2\": \"2x80, 2x85, 1x90\", \"c3\": \"try again 2@90\"}]",
+      "notes": "try again 2@90",
+      "completed_at": "2024-08-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x4 BS\", \"c2\": \"4x4@97.5\", \"c3\": \"aim 2@100\"}]",
+      "notes": "aim 2@100",
+      "completed_at": "2024-08-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP 5x8\", \"c2\": \"5x8 @15\", \"c3\": \"aim use 17.5s.. 5s? 8s?\"}]",
+      "notes": "aim use 17.5s.. 5s? 8s?",
+      "completed_at": "2024-08-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x5 FS\", \"c2\": \"3@83, 1@86, 1x6@90\", \"c3\": \"aim 2x5 @ 90\"}]",
+      "notes": "aim 2x5 @ 90",
+      "completed_at": "2024-08-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"60+10 DL x5\", \"c2\": \"3x5@130\", \"c3\": \"top set 140\"}]",
+      "notes": "top set 140",
+      "completed_at": "2024-08-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 50+2.5\", \"c2\": \"1x5@65\", \"c3\": \"aim 3x5@65\"}]",
+      "notes": "aim 3x5@65",
+      "completed_at": "2024-08-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 fs/bs\", \"c2\": \"2x80 2x85 2x90\", \"c3\": \"3x90\"}]",
+      "notes": "3x90",
+      "completed_at": "2024-08-08T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x3 tempo FS 3xx\", \"c2\": \"2x80 2x85 1x90\", \"c3\": \"class workout\"}]",
+      "notes": "class workout",
+      "completed_at": "2024-08-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 12 emom\", \"c2\": \"5\\u00d76@55 1x8@55\", \"c3\": \"try 60\"}]",
+      "notes": "try 60",
+      "completed_at": "2024-08-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"with GHD\", \"c2\": \"10 each done.\", \"c3\": \"try 11\"}]",
+      "notes": "try 11",
+      "completed_at": "2024-08-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"105, 110, 115, 2x120\", \"c3\": \"aim 3x120\"}]",
+      "notes": "aim 3x120",
+      "completed_at": "2024-08-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP 5x8\", \"c2\": \"2x8@15 2x5@17.5 1x8@17.5 -- aim all at 17.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-08-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x4 BS\", \"c2\": \"80,2x90,2x95,1x100\", \"c3\": \"aim 2x100\"}]",
+      "notes": "aim 2x100",
+      "completed_at": "2024-08-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP 6x5\", \"c2\": \"17.5 aim 6x8@17.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-08-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10x8\", \"c2\": \"1x8 @120\", \"c3\": \"(8s sharing with Nic)\"}]",
+      "notes": "(8s sharing with Nic)",
+      "completed_at": "2024-08-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5 3s neg\", \"c2\": \"4x5@60, 1x5@55\", \"c3\": \"(in class)\"}]",
+      "notes": "(in class)",
+      "completed_at": "2024-08-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 fs/bs\", \"c2\": \"75,80,85,3@90\", \"c3\": \"1@92.5\"}]",
+      "notes": "1@92.5",
+      "completed_at": "2024-08-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x5 tempo BS\", \"c2\": \"4@75 1@80 331\", \"c3\": \"class\"}]",
+      "notes": "class",
+      "completed_at": "2024-08-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x5 Push Press\", \"c2\": \"50,52,55,57,60\", \"c3\": \"aim 2x5 @ 60\"}]",
+      "notes": "aim 2x5 @ 60",
+      "completed_at": "2024-08-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x8 IDBBP\", \"c2\": \"15\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-08-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10 x5\", \"c2\": \"1x5@140\", \"c3\": \"2@140 or 142.5\"}]",
+      "notes": "2@140 or 142.5",
+      "completed_at": "2024-08-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"ring dips\", \"c2\": \"5 x5\", \"c3\": \"try 5x6\"}]",
+      "notes": "try 5x6",
+      "completed_at": "2024-08-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 50+5 x5\", \"c2\": \"2x5@90\", \"c3\": \"aim 3x5@90\"}]",
+      "notes": "aim 3x5@90",
+      "completed_at": "2024-08-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 50+2.5x5\", \"c2\": \"2x5@62.5 1x5@65\", \"c3\": \"aim 2x5@65\"}]",
+      "notes": "aim 2x5@65",
+      "completed_at": "2024-08-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5X5\", \"c2\": \"3@40 2@42.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-08-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"1@100 1@110 3@120\", \"c3\": \"aim 130(10,15,20,25,30)\"}]",
+      "notes": "aim 130(10,15,20,25,30)",
+      "completed_at": "2024-08-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 fs/bs\", \"c2\": \"80, 82.5, 85, 87.5, 90 failed fs#2 @92.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-09-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x4 BS\", \"c2\": \"2@90 2@95 2@100\", \"c3\": \"aim 3@100\"}]",
+      "notes": "aim 3@100",
+      "completed_at": "2024-09-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x8 BP\", \"c2\": \"5@55\", \"c3\": \"aim 1@60\"}]",
+      "notes": "aim 1@60",
+      "completed_at": "2024-09-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10 x5\", \"c2\": \"5x5\", \"c3\": \"3@140\"}]",
+      "notes": "3@140",
+      "completed_at": "2024-09-08T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 50+5 x5\", \"c2\": \"1x5@90\", \"c3\": \"see 29 aug\"}]",
+      "notes": "see 29 aug",
+      "completed_at": "2024-09-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 50+2.5x5\", \"c2\": \"1x5 @65\", \"c3\": \"see 29 aug\"}]",
+      "notes": "see 29 aug",
+      "completed_at": "2024-09-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 45+5 x5 (2:30)\", \"c2\": \"1x5 @ 80\", \"c3\": \"aim 1x5 @ 85\"}]",
+      "notes": "aim 1x5 @ 85",
+      "completed_at": "2024-09-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP x8\", \"c2\": \"all @ 12.5\", \"c3\": \"aim 15s\"}]",
+      "notes": "aim 15s",
+      "completed_at": "2024-09-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x8 DL\", \"c2\": \"100,105,110,115,120 aim 125\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-09-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"GHDs\", \"c2\": \"8s\", \"c3\": \"9 or 10s?\"}]",
+      "notes": "9 or 10s?",
+      "completed_at": "2024-09-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"2RM BS (class wod)\", \"c2\": \"105\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-09-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10 x5\", \"c2\": \"1x4@140\", \"c3\": \"1x5@140\"}]",
+      "notes": "1x5@140",
+      "completed_at": "2024-09-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 50+2.5 x5\", \"c2\": \"1x5@67.5\", \"c3\": \"1x5@70\"}]",
+      "notes": "1x5@70",
+      "completed_at": "2024-09-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 FS/BS on 1:30\", \"c2\": \"60,70,75,80,82.5,85\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-10-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 47.5+5 e2:30\", \"c2\": \"1x5 @ 82.5\", \"c3\": \"aim 1x5 @ 85\"}]",
+      "notes": "aim 1x5 @ 85",
+      "completed_at": "2024-10-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP x8\", \"c2\": \"5x8 + 1x10 @15\", \"c3\": \"aim 17.5s\"}]",
+      "notes": "aim 17.5s",
+      "completed_at": "2024-10-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x5 @122.5 (class)\", \"c2\": \"30, 20, 10 ttb 15,10,5 DL @122.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-10-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 FS/BS on 1:30\", \"c2\": \"70,75,80,82.5,85,87.5\", \"c3\": \"aim 90\"}]",
+      "notes": "aim 90",
+      "completed_at": "2024-10-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x8 DL\", \"c2\": \"100,105,110,120,125 aim 130\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-10-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x5 BP\", \"c2\": \"55,60,62.5,65,70\", \"c3\": \"aim 72.5\"}]",
+      "notes": "aim 72.5",
+      "completed_at": "2024-10-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-10-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 50+5 e2:30\", \"c2\": \"1x5 @ 85\", \"c3\": \"aim 87.5\"}]",
+      "notes": "aim 87.5",
+      "completed_at": "2024-10-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP x8\", \"c2\": \"5x8 + 1x10 @ 17.5\", \"c3\": \"20s. x5 if 8 is too much\"}]",
+      "notes": "20s. x5 if 8 is too much",
+      "completed_at": "2024-10-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DBBP class\", \"c2\": \"1x5@ 30s\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-10-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10 x5\", \"c2\": \"1x5@140\", \"c3\": \"1x5@142.5\"}]",
+      "notes": "1x5@142.5",
+      "completed_at": "2024-10-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x 3/6 FS/BS on 1:30\", \"c2\": \"75,80,82.5,85,90\", \"c3\": \"aim 92.5\"}]",
+      "notes": "aim 92.5",
+      "completed_at": "2024-10-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"60,65,67.5,70,72.5\", \"c3\": \"aim 2x5 @ 72.5\"}]",
+      "notes": "aim 2x5 @ 72.5",
+      "completed_at": "2024-10-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"1x8 @ 130\", \"c3\": \"aim 2x8 @ 130\"}]",
+      "notes": "aim 2x8 @ 130",
+      "completed_at": "2024-10-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x4\", \"c2\": \"2@90 2@95 2@100\", \"c3\": \"2@ 92.5,97.5,102.5\"}]",
+      "notes": "2@ 92.5,97.5,102.5",
+      "completed_at": "2024-10-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP x5\", \"c2\": \"5x5 @ 20s\", \"c3\": \"5x6@20s\"}]",
+      "notes": "5x6@20s",
+      "completed_at": "2024-10-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 52.5+5 e2:30\", \"c2\": \"1x5 @87.5\", \"c3\": \"1x5 @ 90\"}]",
+      "notes": "1x5 @ 90",
+      "completed_at": "2024-10-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"62.5,65,67.5,70,73\", \"c3\": \"aim 2x5@73\"}]",
+      "notes": "aim 2x5@73",
+      "completed_at": "2024-10-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 65+10 x5\", \"c2\": \"1x5 @145\", \"c3\": \"1x5 @ 150\"}]",
+      "notes": "1x5 @ 150",
+      "completed_at": "2024-10-31T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Split Jerk 50+5 x2\", \"c2\": \"2@ 80\", \"c3\": \"2@ 82.5\"}]",
+      "notes": "2@ 82.5",
+      "completed_at": "2024-10-31T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x 3/6 FS/BS\", \"c2\": \"80,82.5,85,87.5,92.5\", \"c3\": \"aim 95\"}]",
+      "notes": "aim 95",
+      "completed_at": "2024-11-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP x6\", \"c2\": \"5x6 @20s\", \"c3\": \"7s or 8s\"}]",
+      "notes": "7s or 8s",
+      "completed_at": "2024-11-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"2x8 @ 130\", \"c3\": \"3x8 @ 130\"}]",
+      "notes": "3x8 @ 130",
+      "completed_at": "2024-11-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Split Jerk 52.5+5 x2\", \"c2\": \"fail @ 77.5\", \"c3\": \"try again\"}]",
+      "notes": "try again",
+      "completed_at": "2024-11-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x4\", \"c2\": \"2@92.5, 97.5, 102.5\", \"c3\": \"2@ 95, 100, 105\"}]",
+      "notes": "2@ 95, 100, 105",
+      "completed_at": "2024-11-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"62.5, 65, 67.5, 2@72.5\", \"c3\": \"1 set @75.. 3? 4? change to all 3s?\"}]",
+      "notes": "1 set @75.. 3? 4? change to all 3s?",
+      "completed_at": "2024-11-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"3x3 FS (class)\", \"c2\": \"195,205,215\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-11-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x3\", \"c2\": \"65,70,75,77.5,80\", \"c3\": \"failed 80\"}]",
+      "notes": "failed 80",
+      "completed_at": "2024-11-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10x5\", \"c2\": \"1x5@150\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-11-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 4x10 @60%\", \"c2\": \"3x10@65 1x15@75\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-11-08T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"110,120,3x130\", \"c3\": \"135\"}]",
+      "notes": "135",
+      "completed_at": "2024-11-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"65,67.5,70,2x5@72.5\", \"c3\": \"3x5@72.5\"}]",
+      "notes": "3x5@72.5",
+      "completed_at": "2024-11-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x4\", \"c2\": \"95, 100, 105\", \"c3\": \"95, 100, 3@105\"}]",
+      "notes": "95, 100, 3@105",
+      "completed_at": "2024-11-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 50+5\", \"c2\": \"1x5@90\", \"c3\": \"1x5@92.5\"}]",
+      "notes": "1x5@92.5",
+      "completed_at": "2024-11-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP x8\", \"c2\": \"5x8 @17.5\", \"c3\": \"20s if you feel\"}]",
+      "notes": "20s if you feel",
+      "completed_at": "2024-11-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"115,120,125,130 tired. didn't do 135. try again.\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-11-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 FS/BS\", \"c2\": \"82.5, 87.5, 92.5\", \"c3\": \"3@ 92.5\"}]",
+      "notes": "3@ 92.5",
+      "completed_at": "2024-11-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5X5 class\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-11-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10x4\", \"c2\": \"1x4 @ 160 t&g\", \"c3\": \"1x5 @ 155\"}]",
+      "notes": "1x5 @ 155",
+      "completed_at": "2024-11-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x4\", \"c2\": \"90, 95, 100, 3@105\", \"c3\": \"1x4@ 107.5\"}]",
+      "notes": "1x4@ 107.5",
+      "completed_at": "2024-11-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"HSPU\", \"c2\": \"3 every 30sec for 5 min\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2024-11-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 52.5+5\", \"c2\": \"1x5@92.5\", \"c3\": \"1x5@95\"}]",
+      "notes": "1x5@95",
+      "completed_at": "2024-12-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"3x5@72.5\", \"c3\": \"1x5@75\"}]",
+      "notes": "1x5@75",
+      "completed_at": "2024-12-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 FS/BS\", \"c2\": \"3@92.5\", \"c3\": \"1@95\"}]",
+      "notes": "1@95",
+      "completed_at": "2024-12-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP\", \"c2\": \"3x8 @ 20\", \"c3\": \"4x8 @ 20\"}]",
+      "notes": "4x8 @ 20",
+      "completed_at": "2024-12-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x4\", \"c2\": \"90,95,97.5,100,102.5,107.5\", \"c3\": \"2x4@107.5\"}]",
+      "notes": "2x4@107.5",
+      "completed_at": "2024-12-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 55+5\", \"c2\": \"1x5@95\", \"c3\": \"1x5@97.5\"}]",
+      "notes": "1x5@97.5",
+      "completed_at": "2024-12-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"1x5@75\", \"c3\": \"2x5@75\"}]",
+      "notes": "2x5@75",
+      "completed_at": "2024-12-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Class BS wave 3-2-1 %\", \"c2\": \"70/75/80 75/80/85 80/85/90\", \"c3\": \"1x5 @110 done\"}]",
+      "notes": "1x5 @110 done",
+      "completed_at": "2024-12-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 55+10 x5\", \"c2\": \"3 @145\", \"c3\": \"try again\"}]",
+      "notes": "try again",
+      "completed_at": "2025-01-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 6x4\", \"c2\": \"80,85,90,92.5,95,97.5\", \"c3\": \"2x4 @ 97.5\"}]",
+      "notes": "2x4 @ 97.5",
+      "completed_at": "2025-01-08T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 1rm\", \"c2\": \"157.5 failed 165\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 5/10\", \"c2\": \"60,65,70,75\", \"c3\": \"Start 62.5 maybe 5 sets?\"}]",
+      "notes": "Start 62.5 maybe 5 sets?",
+      "completed_at": "2025-01-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x4 BS\", \"c2\": \"97.5x2 102.5x2 then stop\", \"c3\": \"try again 2x4@107.5\"}]",
+      "notes": "try again 2x4@107.5",
+      "completed_at": "2025-01-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 50+2.5 x5\", \"c2\": \"top set 60.\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10 x5\", \"c2\": \"130 tired\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 FS/BS\", \"c2\": \"95 2@95\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"115,120,125,130,135 2@135 or 137.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"C&J waves, 1rm clean\", \"c2\": \"3-2-1 65/70/75 70/75/80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"75/80/85 (kg) Sq Clean 96\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"1rm DL 753111 class\", \"c2\": \"162.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"85,90,95,100,105\", \"c3\": \"2@105\"}]",
+      "notes": "2@105",
+      "completed_at": "2025-01-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 50+2.5 x5\", \"c2\": \"top set 65\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"117,122,127 tired. try again\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-01-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 FS/BS\", \"c2\": \"2@ 85 90 95\", \"c3\": \"3@ 95\"}]",
+      "notes": "3@ 95",
+      "completed_at": "2025-01-31T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 60+5x5\", \"c2\": \"1x5 @ 110\", \"c3\": \"goal 112.5\"}]",
+      "notes": "goal 112.5",
+      "completed_at": "2025-02-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 50+2.5\", \"c2\": \"50,52.5,55,57.5,60,62.5,65 70\", \"c3\": \"2x5 @70 or 72.5 with spot\"}]",
+      "notes": "2x5 @70 or 72.5 with spot",
+      "completed_at": "2025-02-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"115,120,125,130,135 2 @ 135\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-02-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x5\", \"c2\": \"5x5 @ 40kg\", \"c3\": \"5x5 @ 42.5kg\"}]",
+      "notes": "5x5 @ 42.5kg",
+      "completed_at": "2025-02-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 6x4\", \"c2\": \"stopped at 2x4@92.5\", \"c3\": \"2@97.5\"}]",
+      "notes": "2@97.5",
+      "completed_at": "2025-02-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP\", \"c2\": \"5x8 10,10,10,12.5,12.5\", \"c3\": \"shoulders sore\"}]",
+      "notes": "shoulders sore",
+      "completed_at": "2025-02-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 55+10 x5\", \"c2\": \"5@145\", \"c3\": \"147.5\"}]",
+      "notes": "147.5",
+      "completed_at": "2025-02-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x5\", \"c2\": \"5x5 @ 41kg\", \"c3\": \"42kg increase by 1 every time\"}]",
+      "notes": "42kg increase by 1 every time",
+      "completed_at": "2025-02-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x 3/6 FS/BS\", \"c2\": \"3@95\", \"c3\": \"1@97.5\"}]",
+      "notes": "1@97.5",
+      "completed_at": "2025-02-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 50+2.5\", \"c2\": \"top set 65\", \"c3\": \"try again\"}]",
+      "notes": "try again",
+      "completed_at": "2025-02-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x5\", \"c2\": \"42kg\", \"c3\": \"43kg\"}]",
+      "notes": "43kg",
+      "completed_at": "2025-02-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"120,125,130, 2x6@135\", \"c3\": \"if feeling good 3@135\"}]",
+      "notes": "if feeling good 3@135",
+      "completed_at": "2025-02-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 6x4\", \"c2\": \"2@ 87.5 92.5 97.5\", \"c3\": \"3@97.5\"}]",
+      "notes": "3@97.5",
+      "completed_at": "2025-02-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 50+2.5\", \"c2\": \"67.5 then 4@ 72.5 with spot\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-02-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"HT x10\", \"c2\": \"2x 10 @ 100\", \"c3\": \"get to 120\"}]",
+      "notes": "get to 120",
+      "completed_at": "2025-02-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 57.5+10 x5\", \"c2\": \"5 @ 147.5\", \"c3\": \"150\"}]",
+      "notes": "150",
+      "completed_at": "2025-02-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x5\", \"c2\": \"43kg\", \"c3\": \"44kg\"}]",
+      "notes": "44kg",
+      "completed_at": "2025-02-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Curls 5x5\", \"c2\": \"5x5 @ 10kg\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-02-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP 5x5\", \"c2\": \"4x5 @17.5 1x5@20\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-02-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS class 10 10 5 5 @70%\", \"c2\": \"85kg.\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-02-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"60 62.5x2 65x2\", \"c3\": \"grow some balls and increase\"}]",
+      "notes": "grow some balls and increase",
+      "completed_at": "2025-02-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"3x6 FS/BS\", \"c2\": \"85 87.5 90 then 1 FS to 100.\", \"c3\": \"try 1@97.5 again\"}]",
+      "notes": "try 1@97.5 again",
+      "completed_at": "2025-02-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 1RM\", \"c2\": \"87.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-02-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x8\", \"c2\": \"115 125 -> 2@35,40,45,50,55\", \"c3\": \"try 3x8@135 again\"}]",
+      "notes": "try 3x8@135 again",
+      "completed_at": "2025-02-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x5\", \"c2\": \"44kg\", \"c3\": \"45kg\"}]",
+      "notes": "45kg",
+      "completed_at": "2025-02-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 60+5\", \"c2\": \"1x2 @ 100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-03-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10\", \"c2\": \"1x5@140 then 1@145,150,155\", \"c3\": \"142.5\"}]",
+      "notes": "142.5",
+      "completed_at": "2025-03-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DzR BS 3X8@81\", \"c2\": \"90% of 10rm (10rm=75% 1rm)\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-03-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 65+10 x8\", \"c2\": \"115 tired day\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-03-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP x5\", \"c2\": \"a few sets x5 @ 62.5\", \"c3\": \"tired day\"}]",
+      "notes": "tired day",
+      "completed_at": "2025-03-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DzR BS\", \"c2\": \"3x5@70% 2x5@80% 1x1@90%\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-03-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Class BS Heavy 3\", \"c2\": \"110kg\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-03-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DzR BS w2d1\", \"c2\": \"3x6 @ 87.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-03-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10\", \"c2\": \"1x5@140\", \"c3\": \"142.5\"}]",
+      "notes": "142.5",
+      "completed_at": "2025-03-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"5x5@65\", \"c3\": \"5x5@ 67.5\"}]",
+      "notes": "5x5@ 67.5",
+      "completed_at": "2025-03-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Dzr BS w2d2\", \"c2\": \"3x4 paused @ 90\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-03-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Dzr BS w2d3\", \"c2\": \"2x5@90 2x3@100 1x2@107.5 1x1@115\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-03-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Dzr BS w3d1\", \"c2\": \"3x4@95\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-03-31T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10 x5\", \"c2\": \"1x3@150\", \"c3\": \"repeat or 145/147.5\"}]",
+      "notes": "repeat or 145/147.5",
+      "completed_at": "2025-04-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Hip Thrust 4x8\", \"c2\": \"85,95,105,125\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-04-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 6x5 class\", \"c2\": \"2x130 2x135 2x140\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-04-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"85,90,95,100,105\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-04-14T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP/PP build to heavy 5\", \"c2\": \"SP 4@45 PP 4@75\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-04-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x3\", \"c2\": \"130,135,140,145,150 increase\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-04-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Squat Clean x2\", \"c2\": \"60,65,70,75,80,85\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-04-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Squat Clean x1\", \"c2\": \"90,92.5,95,97.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-04-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5X5\", \"c2\": \"60,62.5,65,67.5,4@70\", \"c3\": \"repeat, maybe with a spot\"}]",
+      "notes": "repeat, maybe with a spot",
+      "completed_at": "2025-04-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 5x5\", \"c2\": \"70,75,75,80,85\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-04-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 5x5\", \"c2\": \"75,80,83,86 89\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-04-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"60, 65,67.5,70,72.5\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-04-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x5\", \"c2\": \"35,40,43,45,48\", \"c3\": \"managed.\"}]",
+      "notes": "managed.",
+      "completed_at": "2025-05-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5,4,3 3 3\", \"c2\": \"90,97.5,105,110,115\", \"c3\": \"noice pr\"}]",
+      "notes": "noice pr",
+      "completed_at": "2025-05-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"132.5,137.5,3x5@142.5\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-05-04T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x3 + 3 + 3\", \"c2\": \"5x3@105, 110, 2@115\", \"c3\": \"noice fail \\ud83e\\udd23\"}]",
+      "notes": "noice fail 🤣",
+      "completed_at": "2025-05-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"max PP, max FS\", \"c2\": \"190lbs, 245lbs\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-05-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5,4,4,3,3,3\", \"c2\": \"95, 2x100, 105, 2x3@110\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-05-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5,5,5,3,4,4\", \"c2\": \"60, 65, 70, 72.5, 75, 77.5\", \"c3\": \"Nice 4!\"}]",
+      "notes": "Nice 4!",
+      "completed_at": "2025-05-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x5\", \"c2\": \"2@90, 2@97.5, 2@105\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-05-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x 65+10 +1+1\", \"c2\": \"5@145+150+155\", \"c3\": \"this was cool. 67.5+1+1 next\"}]",
+      "notes": "this was cool. 67.5+1+1 next",
+      "completed_at": "2025-05-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x5\", \"c2\": \"37.5,40,42.5,45,47.5 3@50\", \"c3\": \"again\"}]",
+      "notes": "again",
+      "completed_at": "2025-05-14T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 60+5\", \"c2\": \"tired legs 95\", \"c3\": \"goal 97.5\"}]",
+      "notes": "goal 97.5",
+      "completed_at": "2025-05-14T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"65, 70, 72.5, 75, 77.5\", \"c3\": \"boom. increase\"}]",
+      "notes": "boom. increase",
+      "completed_at": "2025-05-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 67.5+10\", \"c2\": \"2@147.5\", \"c3\": \"repeat\"}]",
+      "notes": "repeat",
+      "completed_at": "2025-05-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"60,62.5,65,67.5,70\", \"c3\": \"solid. increase\"}]",
+      "notes": "solid. increase",
+      "completed_at": "2025-05-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"80,85,90,95,100\", \"c3\": \"solid recovery squats\"}]",
+      "notes": "solid recovery squats",
+      "completed_at": "2025-05-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"125,130,135 140,145\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5,5,3,2,1,1,1\", \"c2\": \"75,90,100,110,117.5,125,130\", \"c3\": \"PR\"}]",
+      "notes": "PR",
+      "completed_at": "2025-06-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5,5,3,2,1,1,1\", \"c2\": \"60,65,70,77.5,85,90\", \"c3\": \"PR\"}]",
+      "notes": "PR",
+      "completed_at": "2025-06-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x5\", \"c2\": \"40,42.5,45,45,3@47.5\", \"c3\": \"again\"}]",
+      "notes": "again",
+      "completed_at": "2025-06-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Squat cleans\", \"c2\": \"max 93kg\", \"c3\": \"tired post travel day\"}]",
+      "notes": "tired post travel day",
+      "completed_at": "2025-06-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Push Press\", \"c2\": \"build to heavy. 80kg.\", \"c3\": \"still tired\"}]",
+      "notes": "still tired",
+      "completed_at": "2025-06-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL +10kg\", \"c2\": \"130x5\", \"c3\": \"still tired\"}]",
+      "notes": "still tired",
+      "completed_at": "2025-06-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"60,65,67.5,70,72.5\", \"c3\": \"2 or 3 at 72.5\"}]",
+      "notes": "2 or 3 at 72.5",
+      "completed_at": "2025-06-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Hang power Clean\", \"c2\": \"class 95. 3 fail@100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 1rm\", \"c2\": \"115\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x5\", \"c2\": \"40,40,42.5,42.5,45\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-06-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IDBBP 5x8\", \"c2\": \"15,15,17.5,17.5,20\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-06-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5 75-85%\", \"c2\": \"120,125,130,135,140 increase\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"95,97.5,100,102.5,105\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-06-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"85 - 72.5 no spotter\", \"c3\": \"good.\"}]",
+      "notes": "good.",
+      "completed_at": "2025-06-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"122.5,127.5,132.5,137.5,142.5\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-06-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"90 - 81\", \"c3\": \"this was heavy, but good\"}]",
+      "notes": "this was heavy, but good",
+      "completed_at": "2025-06-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 6x 3/6\", \"c2\": \"70,75,80,85,90,95\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-06-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"85 - 72.5 no spotter\", \"c3\": \"tired,still good. increase.\"}]",
+      "notes": "tired,still good. increase.",
+      "completed_at": "2025-06-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"85 - 72.5 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"92.5 - 78\", \"c3\": \"PR. 3s were solid\"}]",
+      "notes": "PR. 3s were solid",
+      "completed_at": "2025-06-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"122.5 132.5x2 142.5x2\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-06-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP class DB 10 10 5 5 5\", \"c2\": \"22.5 25 27.5 30 35\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL class 10 10 5 5 5 1\", \"c2\": \"100 110 125 140 157.5 170\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"87.5 - 75 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"90 95 100 105 105\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"9095100105110\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"90 - 81\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"93 - 83\", \"c3\": \"PR. 2s were solid 5rm@83\"}]",
+      "notes": "PR. 2s were solid 5rm@83",
+      "completed_at": "2025-06-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"95, 100, 105, 107.5, 110\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"94 - 80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-06-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"90 - 77.5 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"90 - 80 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 5x5 +1 +1\", \"c2\": \"75 80 85 90 95 - 1@100 & 105\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"92.5 - 83.5 no spotter\", \"c3\": \"13 days done\"}]",
+      "notes": "13 days done",
+      "completed_at": "2025-07-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"97.5 - 82.5\", \"c3\": \"PR.\"}]",
+      "notes": "PR.",
+      "completed_at": "2025-07-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"95,100,105,110,110 increase 92.5 --> 112.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"100 - 90\", \"c3\": \"PR\"}]",
+      "notes": "PR",
+      "completed_at": "2025-07-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"125, 130, 135, 140, 145\", \"c3\": \"next 2@145\"}]",
+      "notes": "next 2@145",
+      "completed_at": "2025-07-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"92.5 - 80 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"92.5, 97.5, 102.5, 107.5, 112.5\", \"c3\": \"next 2@ 112.5\"}]",
+      "notes": "next 2@ 112.5",
+      "completed_at": "2025-07-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"95 - 86 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 5x3 3 sec paused class\", \"c2\": \"65 75 85 90 4@95\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"92.5 2@102.5 2@112.5\", \"c3\": \"1x5@115\"}]",
+      "notes": "1x5@115",
+      "completed_at": "2025-07-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"97.5 - 83 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL Hvy 1 + 5x2@90%\", \"c2\": \"171 - 153\", \"c3\": \"PR\"}]",
+      "notes": "PR",
+      "completed_at": "2025-07-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"95 - 86 No spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 4 4 4 2 1 1 1\", \"c2\": \"95,100,105 110 115,120,125\", \"c3\": \"tired. didn't feel 5x5. 125 was solid.\"}]",
+      "notes": "tired. didn't feel 5x5. 125 was solid.",
+      "completed_at": "2025-07-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"95 - 82.5 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x3 class\", \"c2\": \"95 100 105 110 115 120\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"125, 135, 135, 145, 145\", \"c3\": \"1@147.5\"}]",
+      "notes": "1@147.5",
+      "completed_at": "2025-07-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 6x5 with Juned\", \"c2\": \"70,72.5,75,77.5,80,3@82.5\", \"c3\": \"try again top set 82.5\"}]",
+      "notes": "try again top set 82.5",
+      "completed_at": "2025-07-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"100 - 90\", \"c3\": \"Chanty 52\"}]",
+      "notes": "Chanty 52",
+      "completed_at": "2025-07-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"95,100,105,110,115\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"97.5 - 85 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"127.5 132.5 137.5 142.5 147.5\", \"c3\": \"2@147.5\"}]",
+      "notes": "2@147.5",
+      "completed_at": "2025-07-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"97.5 - 87.5 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL class heavy 3\", \"c2\": \"120,135,150,165\", \"c3\": \"1X4 @ 165 PR\"}]",
+      "notes": "1X4 @ 165 PR",
+      "completed_at": "2025-07-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"95, 105, 105, 115, 115\", \"c3\": \"try 117.5\"}]",
+      "notes": "try 117.5",
+      "completed_at": "2025-07-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"97.5 - 88 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-07-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"127.5, 2@137.5, 2@147.5\", \"c3\": \"1@150\"}]",
+      "notes": "1@150",
+      "completed_at": "2025-07-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"95 - 81 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS Build to a hvy 1\", \"c2\": \"125\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 6x3 every 2 min Class\", \"c2\": \"80,85,90,95,100,105\", \"c3\": \"failed rep 3 @ 105\"}]",
+      "notes": "failed rep 3 @ 105",
+      "completed_at": "2025-08-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"90 - 81 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"92.5 97.5 102.5 107.5 112.5\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-08-08T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5X4\", \"c2\": \"97.5, 102.5, 107.5, 112.5, 1x5@117.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"100 - 85\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"130, 135, 140, 145, 150\", \"c3\": \"2@ 150\"}]",
+      "notes": "2@ 150",
+      "completed_at": "2025-08-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS 5x5\", \"c2\": \"85,87.5,90,92.5,95\", \"c3\": \"2@ 95\"}]",
+      "notes": "2@ 95",
+      "completed_at": "2025-08-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"PP 6x3 class\", \"c2\": \"60,65,70,75,77.5,77.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 6x4\", \"c2\": \"2x75 2x80 85, 3@87.5\", \"c3\": \"try again\"}]",
+      "notes": "try again",
+      "completed_at": "2025-08-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"97.5 102.5 107.5 112.5 117.5\", \"c3\": \"2@117.5\"}]",
+      "notes": "2@117.5",
+      "completed_at": "2025-08-14T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@85%\", \"c2\": \"92.5 - 83 no spotter\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-14T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Hang squat clean + 2xFS\", \"c2\": \"100 pr\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"100 - 90\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"97.5 2@107.5 2@117.5\", \"c3\": \"120\"}]",
+      "notes": "120",
+      "completed_at": "2025-08-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 6x4\", \"c2\": \"2@75 2@80 85 87.5\", \"c3\": \"5x5 next?\"}]",
+      "notes": "5x5 next?",
+      "completed_at": "2025-08-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"130, 2@140, 2@150\", \"c3\": \"152.5\"}]",
+      "notes": "152.5",
+      "completed_at": "2025-08-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"PP 6x3 @ 80% class\", \"c2\": \"6x3 @ 70, last set 6@70\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP waves with Nic\", \"c2\": \"Last set 7@42 5@45 3@48\", \"c3\": \"did 4@48.. 62(67,72,77%)\"}]",
+      "notes": "did 4@48.. 62(67,72,77%)",
+      "completed_at": "2025-08-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 8x3 80-87.5% (b1 w4)\", \"c2\": \"2@112, 2@115, 2@119, 122.5, 126\", \"c3\": \"block 2, week7\"}]",
+      "notes": "block 2, week7",
+      "completed_at": "2025-08-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5 (b2 w8)\", \"c2\": \"2@75, 80, 85, 87.5\", \"c3\": \"block 3, week9\"}]",
+      "notes": "block 3, week9",
+      "completed_at": "2025-08-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x4\", \"c2\": \"80 tired. continue as above\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x4\", \"c2\": \"2@105 2@112.5 119 122.5\", \"c3\": \"week 8 day 50\"}]",
+      "notes": "week 8 day 50",
+      "completed_at": "2025-08-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"102.5 - 92.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP waves with Nic\", \"c2\": \"Last set 7@43 5@46.5 3@50\", \"c3\": \"(70, 75, 80%)\"}]",
+      "notes": "(70, 75, 80%)",
+      "completed_at": "2025-08-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"100 - 85 (last set 87.5)\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-08-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5-4-3-2-1 class\", \"c2\": \"125, 140, 155, 165, 175\", \"c3\": \"nice PR\"}]",
+      "notes": "nice PR",
+      "completed_at": "2025-08-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x3 w8d50\", \"c2\": \"2 sets at 112.\", \"c3\": \"heavy, tired, failed. try again\"}]",
+      "notes": "heavy, tired, failed. try again",
+      "completed_at": "2025-08-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x3 w8d50\", \"c2\": \"2@112 2@119 122.5 128\", \"c3\": \"week 9 day 57\"}]",
+      "notes": "week 9 day 57",
+      "completed_at": "2025-09-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 4x6\", \"c2\": \"75, 80, 85, 87.5\", \"c3\": \"block 3 week 10\"}]",
+      "notes": "block 3 week 10",
+      "completed_at": "2025-09-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"132.5, 137.5, 142.5, 147.5, 152.5\", \"c3\": \"2@152.5\"}]",
+      "notes": "2@152.5",
+      "completed_at": "2025-09-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP waves with Nic\", \"c2\": \"Last set 7@44 5@47.5 3@51\", \"c3\": \"(72, 77, 82%)\"}]",
+      "notes": "(72, 77, 82%)",
+      "completed_at": "2025-09-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x2 class\", \"c2\": \"90\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-09-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 4x4 w9d57\", \"c2\": \"112.5 119 122.5 128\", \"c3\": \"w10 d64\"}]",
+      "notes": "w10 d64",
+      "completed_at": "2025-09-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"105 - 90\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-09-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"132.5 2@142.5 2@152.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-09-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP waves with Nic\", \"c2\": \"Last set 7@46 5@49 3@52\", \"c3\": \"failed. try again\"}]",
+      "notes": "failed. try again",
+      "completed_at": "2025-09-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x2 w10d64\", \"c2\": \"117,5 120 122.5 125 132.5 1@135\", \"c3\": \"nice pr\"}]",
+      "notes": "nice pr",
+      "completed_at": "2025-09-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 6x3 (recovery) w13d4\", \"c2\": \"67, 70, 73, 76, 79,82\", \"c3\": \"w17d2\"}]",
+      "notes": "w17d2",
+      "completed_at": "2025-09-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS Hvy 1 + 5x3@85%\", \"c2\": \"137.5 - 115\", \"c3\": \"nice pr\"}]",
+      "notes": "nice pr",
+      "completed_at": "2025-09-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 6x4\", \"c2\": \"77.5 80 82.5 85 87.5 90\", \"c3\": \"2x4 @ 90. Nic top set 60.\"}]",
+      "notes": "2x4 @ 90. Nic top set 60.",
+      "completed_at": "2025-09-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP waves with Nic\", \"c2\": \"Last set 7@46 5@49 3@52\", \"c3\": \"next 5@48 3@51 1@54 see ---->\"}]",
+      "notes": "next 5@48 3@51 1@54 see ---->",
+      "completed_at": "2025-09-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 8x3 80-87.5% (b1 w4)\", \"c2\": \"2@115 2@118 2@121 124, 127\", \"c3\": \"block 2, week7\"}]",
+      "notes": "block 2, week7",
+      "completed_at": "2025-09-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"65 70 75 80 3@85\", \"c3\": \"tired. no spotter. something btn\"}]",
+      "notes": "tired. no spotter. something btn",
+      "completed_at": "2025-09-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"135 140 145 150 155\", \"c3\": \"2@155\"}]",
+      "notes": "2@155",
+      "completed_at": "2025-09-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x3\", \"c2\": \"85 completed. increase\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-09-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5 b2w8\", \"c2\": \"2@77.5 82 87.5 90\", \"c3\": \"Nic top set 60. b3w1\"}]",
+      "notes": "Nic top set 60. b3w1",
+      "completed_at": "2025-09-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP waves without Nic\", \"c2\": \"Last set 5@48 3@51 1@54\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-09-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x2@90%\", \"c2\": \"102.5 - 90.. failed 2nd at 102.5\", \"c3\": \"Nic PR 68\"}]",
+      "notes": "Nic PR 68",
+      "completed_at": "2025-09-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 1RM\", \"c2\": \"5@100 3@120 2@140 160,175, 184\", \"c3\": \"Goal Achieved\"}]",
+      "notes": "Goal Achieved",
+      "completed_at": "2025-10-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 1RM\", \"c2\": \"5@80 3@95 2@110 125 136 143.5\", \"c3\": \"Goal achieved\"}]",
+      "notes": "Goal achieved",
+      "completed_at": "2025-10-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 1RM\", \"c2\": \"5@31 3@37 44 50 56 61\", \"c3\": \"Goal achieved\"}]",
+      "notes": "Goal achieved",
+      "completed_at": "2025-10-04T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"105 107.5 110 112.5 115\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-10-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x8\", \"c2\": \"60 62.5 65 67.5 70\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2025-10-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 60+2.5 x5 with Nic\", \"c2\": \"top set 77.5 x5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-10-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP clusters 5x8\", \"c2\": \"75 77.5 80 82.5x2\", \"c3\": \"heavy. no idea what to do next\"}]",
+      "notes": "heavy. no idea what to do next",
+      "completed_at": "2025-10-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x3 class\", \"c2\": \"100,105,110x4 emom with 100m &dips\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-10-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Box Squats\", \"c2\": \"emom 2@115\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-10-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP class Hvy 1\", \"c2\": \"100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-10-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Box Squats\", \"c2\": \"emom 2@110\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-11-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 60+2.5 x4 with Nic\", \"c2\": \"top set 80 x4\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-11-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Class BS E5M 400m row 4xBS\", \"c2\": \"90,95,100,105,110,115\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-11-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"95 - 5x3@80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-11-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Nic's BS Hvy 1\", \"c2\": \"125\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-11-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL class 54321\", \"c2\": \"105 125 145 160 175\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-11-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x PU,DIP,BP,GHD(15)\", \"c2\": \"body weight. BP 65\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-11-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 4X8 w1d1\", \"c2\": \"85 90 95 100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-11-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5 w1d4\", \"c2\": \"62.5 -> 72.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-12-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 4x6 w2d4\", \"c2\": \"65, 70, 72.5, 75\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-12-08T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x6 w2d1\", \"c2\": \"2@90 2@95 5@100 2@105\", \"c3\": \"tired. try next week. maybe rethink\"}]",
+      "notes": "tired. try next week. maybe rethink",
+      "completed_at": "2025-12-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x6 w2d1\", \"c2\": \"1@ 80 3@90 2@95\", \"c3\": \"re thinked :(\"}]",
+      "notes": "re thinked :(",
+      "completed_at": "2025-12-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5xpu@12\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-12-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5 ring dip\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-12-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"8 @ 50\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-12-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"17 ghd\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2025-12-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"10 RoC\", \"c2\": \"every 1:45\", \"c3\": \"every 1:40\"}]",
+      "notes": "every 1:40",
+      "completed_at": "2026-01-04T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 5x 4/8\", \"c2\": \"70, 75, 75, 80, 85\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"10 emom\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"weighted pull up x5\", \"c2\": \"12kg all sets done\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"strict hspu x5\", \"c2\": \"to 1 mat done\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"62.5, 65, 67.5, 70, 72.5\", \"c3\": \"increase all\"}]",
+      "notes": "increase all",
+      "completed_at": "2026-01-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"95, 105, 115, 125, 135\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2026-01-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Hip Thrust 5x10\", \"c2\": \"80, 90, 100, 110, 120\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2026-01-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"65, 67.5, 70, 72.5, 75\", \"c3\": \"next 6x4\"}]",
+      "notes": "next 6x4",
+      "completed_at": "2026-01-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 5x 4/8\", \"c2\": \"67.5, 72.5, 77.5, 82.5, 87.5\", \"c3\": \"next 3/6\"}]",
+      "notes": "next 3/6",
+      "completed_at": "2026-01-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"1rm pull up\", \"c2\": \"30kg\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 6x4\", \"c2\": \"65, 70, 72.5, 75, 77.5, 80\", \"c3\": \"next 8x3\"}]",
+      "notes": "next 8x3",
+      "completed_at": "2026-01-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"hip Thrust\", \"c2\": \"185kg x3\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"pu/hspu\", \"c2\": \"tried x6 failed.\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x6\", \"c2\": \"2@85 2@90 2@95\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 8x3\", \"c2\": \"65 -> 82.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP class hvy 1\", \"c2\": \"87.5 and 6@75\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"pu/hspu 6x5\", \"c2\": \"2sets@16, 4@12. All hspu to 1 mat\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"HT 5x5\", \"c2\": \"5x5 @ 150\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 60+10 x5\", \"c2\": \"Last set 130.. tired, ht was heavy\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x2\", \"c2\": \"105\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 4x6\", \"c2\": \"65, 67.5, 72.5, 5@77.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x3\", \"c2\": \"100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"pu/hspu 6x 6hspu 5pu\", \"c2\": \"1 mat, failed last set@4\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"6x5 @ 16kg. just. repeat\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-01-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x2\", \"c2\": \"100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-02-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP waves with Nic\", \"c2\": \"60 -> 80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-02-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"4rh feb\", \"c2\": \"BS 6x4\", \"c3\": \"100 solid. 3 mins rest between\"}]",
+      "notes": "100 solid. 3 mins rest between",
+      "completed_at": "2026-02-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"IBP DB 4x10\", \"c2\": \"12.5, 15, 17.5, 20\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2026-02-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"bs 6x2\", \"c2\": \"100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-02-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP solo waves\", \"c2\": \"65 -> 77\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-02-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Boston upper body sesh\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-02-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-02-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"67,\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-02-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"67.5 70 72.5 75 77.5 max at 70\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-02-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"THE BULK ep 2\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-02-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x5\", \"c2\": \"2@80 2@85 2@90\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-03-23T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"5@100, 110, 120, 130, 3@140\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-03-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8\", \"c2\": \"60 65 65 67.5 72.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-03-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Bench class 1rm\", \"c2\": \"82 5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-03-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"push Press 1rm class\", \"c2\": \"80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS class with push ups\", \"c2\": \"85kg x 25\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"bench 5x6\", \"c2\": \"60 65 70 70 4@72.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL x5\", \"c2\": \"102.5 122.5, 127.5, 132.5, 137.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP x4\", \"c2\": \"60, 65, 70, 72.5, 75\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 4x8\", \"c2\": \"60\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-12T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"8x3 BS\", \"c2\": \"85,87.5,90,92.5,92.5,95,97.5,100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"117.5,122.5,127.5,132.5,137.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-14T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 4x8\", \"c2\": \"60 62.5 62.5 65\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8 x5\", \"c2\": \"60, 65, 70,75,80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"117.5 127.5x2 137.5x2\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x5 bs\", \"c2\": \"75, 80,85,90,95\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"4x8 bp\", \"c2\": \"60, 62.5, 65, 67.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8 x 5\", \"c2\": \"62.5, 67.5, 72.5, 77.5, 82.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"5x5 bs\", \"c2\": \"80, 85, 90, 95, 100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-04-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"bs 5x5\", \"c2\": \"80, 90,90,100,100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-05-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP hvy 1 85%x3\", \"c2\": \"87 - 5x3@72.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-05-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL class 54321\", \"c2\": \"120,130,140,150, fail 160\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-05-08T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 4x8\", \"c2\": \"62.5,65,67.5,70\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-05-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8\", \"c2\": \"65,70,75,80,85\", \"c3\": \"next 2 sets @ 85\"}]",
+      "notes": "next 2 sets @ 85",
+      "completed_at": "2026-05-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"70,72.5,75,77.5 4@80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-05-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x8\", \"c2\": \"62.5 65 67.5 70 72.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-05-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"110,120,130,135 2@140\", \"c3\": \"hungover. repeat.\"}]",
+      "notes": "hungover. repeat.",
+      "completed_at": "2026-05-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS\", \"c2\": \"67.5,72.5,77.5,82.5,87.5\", \"c3\": \"hard. next 2@ 87.5\"}]",
+      "notes": "hard. next 2@ 87.5",
+      "completed_at": "2026-05-19T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"70, 72.5, 75, 77.5, 80\", \"c3\": \"2 sets @ 80\"}]",
+      "notes": "2 sets @ 80",
+      "completed_at": "2026-05-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"120, 125, 130, 135, 140\", \"c3\": \"2@ 140\"}]",
+      "notes": "2@ 140",
+      "completed_at": "2026-05-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 8x3\", \"c2\": \"92.5 --> 110\", \"c3\": \"2x 95, 100 105 110\"}]",
+      "notes": "2x 95, 100 105 110",
+      "completed_at": "2026-05-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"82.5 87.5 92.5 97.5 102.5\", \"c3\": \"2@ 102.5\"}]",
+      "notes": "2@ 102.5",
+      "completed_at": "2026-05-26T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 4x5\", \"c2\": \"70 72.5 75 80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-05-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x2-5\", \"c2\": \"35 38 40 42 45\", \"c3\": \"aim top set of 5 @ 42.5\"}]",
+      "notes": "aim top set of 5 @ 42.5",
+      "completed_at": "2026-05-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS Class hvy 1, + 4x5\", \"c2\": \"2x1 @ 120. 3@95 1@100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-05-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"120 2@130 2@140\", \"c3\": \"142.5\"}]",
+      "notes": "142.5",
+      "completed_at": "2026-05-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP 5x3\", \"c2\": \"40 42.5 45 45 47.5\", \"c3\": \"this was good base numbers.\"}]",
+      "notes": "this was good base numbers.",
+      "completed_at": "2026-05-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"92.5 2@97.5 2@102.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-06-04T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"bench .. with martha 5x5\", \"c2\": \"70 72.5 75 77.5 4@82.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-06-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS Hvy 1 with Ash\", \"c2\": \"122.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-06-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Class 5x3\", \"c2\": \"80 82.5 82.5 85 85\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-06-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8\", \"c2\": \"67.5 2@77.5 2@87.5\", \"c3\": \"77.5 --> 87.5\"}]",
+      "notes": "77.5 --> 87.5",
+      "completed_at": "2026-06-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"70, 75, 75, 80, 80\", \"c3\": \"3@80\"}]",
+      "notes": "3@80",
+      "completed_at": "2026-06-14T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 7x3\", \"c2\": \"2@75 2@77.5 2@80 82.5\", \"c3\": \"heavy after Nate\"}]",
+      "notes": "heavy after Nate",
+      "completed_at": "2026-06-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"92.5 97.5 102.5 102.5 105\", \"c3\": \"strong. 2@ 105\"}]",
+      "notes": "strong. 2@ 105",
+      "completed_at": "2026-06-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP class hvy 1, 6x2/3@90%\", \"c2\": \"90. 6x3@80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-06-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL Hvy 1 + 5x3@85\", \"c2\": \"165 -> 5x3@140\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-06-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Mia bog\", \"c2\": \"\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-06-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"72.5 75 77.5 80 3@82.5\", \"c3\": \"tired. all good.\"}]",
+      "notes": "tired. all good.",
+      "completed_at": "2026-06-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL class 10 8 6 4 2\", \"c2\": \"110 120 127.5 135 150\", \"c3\": \"pretty easy tbh.\"}]",
+      "notes": "pretty easy tbh.",
+      "completed_at": "2026-06-24T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"95 100 100 105 105\", \"c3\": \"strong 107.5? 110?\"}]",
+      "notes": "strong 107.5? 110?",
+      "completed_at": "2026-06-25T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5 every 5 mins\", \"c2\": \"5x5 @ 140\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2026-06-29T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP Hvy 1 + 5x3@85%\", \"c2\": \"94! 5x3@80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-06-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"class BS 120wb + 1x5 (15min)\", \"c2\": \"6:25 and 1x5@105\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-06-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 6x3 (due time)\", \"c2\": \"100, 102.5, 105, 107.5, 110, 115\", \"c3\": \"2 sets at 115 or 117.5\"}]",
+      "notes": "2 sets at 115 or 117.5",
+      "completed_at": "2026-07-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP waves with Nic & Ash\", \"c2\": \"37.5 -> 47.5 --> 1rm 57.5\", \"c3\": \"40 -> 50\"}]",
+      "notes": "40 -> 50",
+      "completed_at": "2026-07-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5 with Ash\", \"c2\": \"72.5 75 77.5 77.5 72.5\", \"c3\": \"struggle city after endurance\"}]",
+      "notes": "struggle city after endurance",
+      "completed_at": "2026-07-05T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP waves with Ash\", \"c2\": \"40 -> 50\", \"c3\": \"41 -> 51 (Ash 27 -> 35)\"}]",
+      "notes": "41 -> 51 (Ash 27 -> 35)",
+      "completed_at": "2026-07-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8 with Ash and Joey\", \"c2\": \"75, 80, 82.5, 85, 90\", \"c3\": \"80 -> 90 (A top set was 55)\"}]",
+      "notes": "80 -> 90 (A top set was 55)",
+      "completed_at": "2026-07-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"5x5 @ 142.5\", \"c3\": \"increase 145x5\"}]",
+      "notes": "increase 145x5",
+      "completed_at": "2026-07-08T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"97.5 100 102.5 105 107.5\", \"c3\": \"increase 107.5x2\"}]",
+      "notes": "increase 107.5x2",
+      "completed_at": "2026-07-09T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5 with Ash\", \"c2\": \"72.5 75 77.5 80 82.5\", \"c3\": \"2@ 82.5\"}]",
+      "notes": "2@ 82.5",
+      "completed_at": "2026-07-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"PU/Dips 4 x 5/8 with Shebom\", \"c2\": \"rest 1, rest 2 --> 12kg\", \"c3\": \"repeat PU, 9 dips.\"}]",
+      "notes": "repeat PU, 9 dips.",
+      "completed_at": "2026-07-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8 with Ash\", \"c2\": \"80 -> 90\", \"c3\": \"2@ 90\"}]",
+      "notes": "2@ 90",
+      "completed_at": "2026-07-14T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP & WB with Ash\", \"c2\": \"41 -> 51 / 15\", \"c3\": \"42->52, 17. (Ash 28->36)\"}]",
+      "notes": "42->52, 17. (Ash 28->36)",
+      "completed_at": "2026-07-15T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5 with Ash\", \"c2\": \"72.5 75 77.5 77.5 80\", \"c3\": \"no strong today. try again\"}]",
+      "notes": "no strong today. try again",
+      "completed_at": "2026-07-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 8x2 class\", \"c2\": \"150 (ghd, 30' BJ, strict PU)\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-07-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 8x3 with Ash\", \"c2\": \"100->117.5 (last a little shallow)\", \"c3\": \"2@117.5 (102,107,112,117)\"}]",
+      "notes": "2@117.5 (102,107,112,117)",
+      "completed_at": "2026-07-17T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 3RM, 1RM, class 2k row\", \"c2\": \"160x3 (deadstop), 170x1\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-07-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8 with Ash\", \"c2\": \"80, 85, 85, 90, 90\", \"c3\": \"82.5-> 92.5\"}]",
+      "notes": "82.5-> 92.5",
+      "completed_at": "2026-07-21T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5\", \"c2\": \"75kg.\", \"c3\": \"tired.\"}]",
+      "notes": "tired.",
+      "completed_at": "2026-07-22T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"97.5 2@102.5 2@107.5\", \"c3\": \"110\"}]",
+      "notes": "110",
+      "completed_at": "2026-07-27T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Linda 10 -> 1 DL, BP, Sq Clean\", \"c2\": \"110, 73, 55 .. 160 reps (30min cap)\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-07-28T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS with Nic\", \"c2\": \"82.5 -> 92.5\", \"c3\": \"2@ 92.5\"}]",
+      "notes": "2@ 92.5",
+      "completed_at": "2026-07-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP with Ash\", \"c2\": \"42 -> 52.. failed. repeat.\", \"c3\": \"42->52 .. (Ash 29->37)\"}]",
+      "notes": "42->52 .. (Ash 29->37)",
+      "completed_at": "2026-07-31T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP with Nic 5x5\", \"c2\": \"fail. shoulder sore. stopped 3@70\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-08-02T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"100 -> 110\", \"c3\": \"2@110\"}]",
+      "notes": "2@110",
+      "completed_at": "2026-08-03T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"DL 5x5\", \"c2\": \"145 that was heavy. fuck it. 147.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-08-04T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP with Ash HVY 1 5x3@85%\", \"c2\": \"92.5 -> 5x3@76\", \"c3\": \"failed 95\"}]",
+      "notes": "failed 95",
+      "completed_at": "2026-08-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"Sumo DL 54321\", \"c2\": \"100 120 130 140 150\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-08-06T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS Hvy 1\", \"c2\": \"127.5 skinny Al pr\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-08-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"power cleans in wod + hvy 1\", \"c2\": \"100 equal all time pr\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-08-10T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"SP with LV smr boot camp\", \"c2\": \"42 ->52 success.\", \"c3\": \"43->53\"}]",
+      "notes": "43->53",
+      "completed_at": "2026-08-11T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"100 105 105 3@105 3@90\", \"c3\": \"tired. try 100 ->110\"}]",
+      "notes": "tired. try 100 ->110",
+      "completed_at": "2026-08-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8\", \"c2\": \"65 70 75 80 82.5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-08-20T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5\", \"c2\": \"80 85 90 95 100\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-08-30T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8\", \"c2\": \"70 75 80 82.5 85\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-09-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 6x3 class\", \"c2\": \"75\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-09-04T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"FS/BS 4/8\", \"c2\": \"75 80 82.5 85 87.5\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2026-09-07T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 1RM class with Nic\", \"c2\": \"4@75 2@80 85, 87.5, 90, 92.5 95\", \"c3\": \"skinny Al pr\"}]",
+      "notes": "skinny Al pr",
+      "completed_at": "2026-09-08T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5v Nic, Trex, Ricky\", \"c2\": \"70, 72.5, 75 4@77.5 3@80\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-09-13T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BP 5x5 class\", \"c2\": \"70 x5\", \"c3\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-09-16T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"c1\": \"BS 5x5 with Ash\", \"c2\": \"85 -> 105\", \"c3\": \"increase\"}]",
+      "notes": "increase",
+      "completed_at": "2026-09-18T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"lift\": \"FS/BS 4/8 with Ash\", \"weight\": \"77.5 -> 87.5\", \"reps\": 0, \"note\": \"really strong, increase\"}]",
+      "notes": null,
+      "completed_at": "2026-09-21",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"lift\": \"BP waves class\", \"weight\": \"70 73 76 -> 79 -> 85\", \"reps\": 0, \"note\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-09-21",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"lift\": \"BS 5x5\", \"weight\": \"90 2@97.5 2@105\", \"reps\": 0, \"note\": \"increase\"}]",
+      "notes": null,
+      "completed_at": "2026-09-25",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"lift\": \"BS 5x5\", \"weight\": \"87.5 -> 107.5\", \"reps\": 0, \"note\": \"increase\"}]",
+      "notes": null,
+      "completed_at": "2026-10-01",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"lift\": \"FS/BS 4/8 with Ash\", \"weight\": \"80 -> 90\", \"reps\": 0, \"note\": \"increase\"}]",
+      "notes": null,
+      "completed_at": "2026-10-05",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"lift\": \"PP 7x3 with Ash (class)\", \"weight\": \"3@70 2@72.5 2@75\", \"reps\": 0, \"note\": \"\"}]",
+      "notes": null,
+      "completed_at": "2026-10-05",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "real_detail_row",
+    "input": {
+      "member_id": 7,
+      "details": "[{\"lift\": \"BP Hvy 1 + 5x3 @ 85% with Ash\", \"weight\": \"92.5 -> 77.5\", \"reps\": 0, \"note\": \"done\"}]",
+      "notes": null,
+      "completed_at": "2026-10-06",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [
+        {
+          "lift": "Back Squat",
+          "weight": 50.5,
+          "reps": 5
+        }
+      ],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 50.5
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [
+        {
+          "lift": "Bench Press",
+          "weight": 125.5,
+          "reps": 3
+        }
+      ],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 125.5
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [
+        {
+          "lift": "Deadlift",
+          "weight": 275.5,
+          "reps": 1
+        }
+      ],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 275.5
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [
+        {
+          "lift": "A",
+          "weight": 0.1,
+          "reps": 1
+        },
+        {
+          "lift": "B",
+          "weight": 0.2,
+          "reps": 1
+        }
+      ],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.30000000000000004
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [
+        {
+          "lift": "A",
+          "weight": 1.5,
+          "reps": 1
+        },
+        {
+          "lift": "B",
+          "weight": 2.5,
+          "reps": 1
+        },
+        {
+          "lift": "C",
+          "weight": 3.5,
+          "reps": 1
+        }
+      ],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 7.5
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [
+        {
+          "lift": "A",
+          "weight": 10.5,
+          "reps": 1
+        },
+        {
+          "lift": "B",
+          "weight": 20.25,
+          "reps": 1
+        }
+      ],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 30.75
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [
+        {
+          "lift": "A",
+          "weight": "77.5",
+          "reps": 5
+        }
+      ],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 77.5
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [
+        {
+          "lift": "A",
+          "weight": "70 -> 77.5",
+          "reps": 5
+        }
+      ],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [
+        {
+          "lift": "A",
+          "weight": 50,
+          "reps": 5
+        },
+        {
+          "lift": "A",
+          "weight": 77.5,
+          "reps": 3
+        }
+      ],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 127.5
+    }
+  },
+  {
+    "kind": "rounding",
+    "input": {
+      "member_id": 7,
+      "sets": [],
+      "completed_at": "2026-01-01T00:00:00.000Z",
+      "auto_pr": false
+    },
+    "expected": {
+      "total_score": 0.0
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "generated_by": "gen_fixtures.py (Phase 0 Step 3)",
+  "sources": {
+    "live_db": "/home/allen/.openclaw/workspace/projects/the-storm/gymforge/gymforge.db",
+    "workout_history_csv": "/home/allen/.openclaw/workspace/projects/the-storm/gymforge/workout_history.csv",
+    "prs_csv": "/home/allen/.openclaw/workspace/projects/the-storm/gymforge/pr_history_video.csv"
+  },
+  "counts": {
+    "parse_history_date": 34,
+    "record_log": 493,
+    "record_pr": 26,
+    "import_history_csv": 10,
+    "detect_new_prs": 9
+  },
+  "total_cases": 572,
+  "note": "Each `expected` is the actual output of the Python function on the given input. The TypeScript port (Phase 1) must reproduce these exactly. run: python3 gen_fixtures.py"
+}

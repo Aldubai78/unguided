@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+
+# Android build artifacts
+app/android/local.properties
+app/android/**/build/
+app/android/.cxx/
+app/android/.gradle/
+
+# iOS build artifacts
+app/ios/build/
+app/ios/Pods/
+
+# Logs
+*.log
+
+# Workspace / local-only
+dougs_backups/
+shipped/
+misc/
+
+# OS
+.DS_Store
+Thumbs.db
