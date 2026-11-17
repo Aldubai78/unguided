@@ -595,6 +595,8 @@ on sign-out.
 **Gate:** All 6 steps pass. No data loss, no missing features, no crashes.
 **Output:** Acceptance test passed. The app is "done" by definition.
 
+> **Phase 4 = COMPLETE ✅ (2026-11-17).** All 6 steps pass. Stella scenario acceptance test done. The app is "done" by definition.
+
 ---
 
 ### Phase 5 — Fold Back + Ship ✅ DONE (2026-11-05)
