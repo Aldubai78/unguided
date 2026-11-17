@@ -1,125 +1,130 @@
 # 🦈 Unguided — by Doug Labs
 
-**Unguided IS the OpenGym member surface** — a React Native (Expo) phone app, developed
-browser-first, backed by the **DougLabs Sandbox** (a frozen dev replica of the live 8001
-Storm/GymForge server). This file is the **startup + orientation source of truth**.
+**Unguided IS the OpenGym member surface** — a React Native (Expo) phone app for gym members
+to log workouts, track PRs, import history, and chat with the gym. Offline-first: the phone is
+the source of truth, the server is a backup.
 
 > **Status: ✅ SHIPPED (2026-11-17).** All 9 phases complete. Stella Scenario acceptance test passed.
 
-> Contract / phase plan: [`UNGUIDED-PLAN.md`](UNGUIDED-PLAN.md).
-> Live status board: `../../ACTIVE-PLAN.md`. Daily investigation logs: `../../memory/YYYY-MM-DD.md`.
-
 ---
 
-## 🗺️ Layout
+## 📱 What's in the app
+
+- **Sign in / Register / Sign out** — PBKDF2 offline verification + SecureStore token persistence
+- **PRs screen** — personal records by lift, search, delete, CSV import
+- **History screen** — full workout log, date dials, search, delete, CSV import
+- **Log workout** — add sets/notes to any lift, auto-PR detection
+- **Percentage calculator** — 1RM (Brzycki), % of 1RM, estimated 1RM from reps
+- **Timer** — workout timer with audio cues
+- **Chamber of Chaos** — live chat room (WebSocket)
+- **Pac-Man** — canvas game with maze, ghosts, power pellets
+- **Snake** — canvas game with RX/Scaled modes
+- **Profile** — member info, sign out, data export
+
+## 🏗️ Architecture
+
+**Phone is the true source. Server is backup.**
+
+- Sign-in auto-pulls the full dataset (member, logs, PRs, exercises)
+- Manual sync **full-adopts** the phone's complete dataset onto the server (replace, no merge)
+- Deletions propagate by omission — a record not sent is dropped
+- No auto-sync, no conflict resolution, no UUIDs, no soft-delete
+- Sync is one direction: phone → server
+
+**Stack:** React Native (Expo) · TypeScript · expo-secure-store · expo-document-picker ·
+expo-file-system · WebSocket · Canvas (games)
+
+## 🗺️ Repository layout
 
 | Path | What |
 |------|------|
-| `app/` | **The app** — Expo React Native (web + native). Entry `app/App.tsx`. Screens in `app/screens/`, data layer in `app/src/`. |
-| `app/start-metro-web.sh` | Metro (web dev loop) launcher — `cd app && npx expo start --web --port 8091 --lan`. |
-| `app/ANDROID-BUILD.md` | Release APK build procedure (arm64-only, 30 MB) + deploy to 8001 + shipped/. |
-| `app/EXPO-GO-IOS.md` | Expo Go iOS/iPad setup (portproxy + Tailscale funnel). |
-| `src/` `test/` `fixtures/` | TS core (572/572 fixture suite) — the business logic, run under Metro tsx. |
-| `../douglabs_sandbox/` | **The backend** (8002). Self-contained Storm/GymForge replica + the `/app/*` Unguided API. |
-| `dougs_backups/` | Pre-edit backups (one per file, `.pN` suffix). **Always back up before editing.** |
+| `app/` | **The app** — Expo React Native. Entry `app/App.tsx`. Screens in `app/screens/`, data layer in `app/src/`. |
+| `app/android/` | Android project (arm64-only release APK, 30 MB). |
+| `app/ios/` | iOS/Xcode project. |
+| `app/assets/` | Icons, splash screens, game sounds. |
+| `app/shims/` | Web shims for native modules (expo-secure-store, expo-sqlite). |
+| `app/test/` | App-level tests. |
+| `src/` | **Core TS package** — business logic (572/572 fixture suite). |
+| `test/` | Core conformance + engine tests. |
+| `fixtures/` | Golden fixtures (7 JSON files, 572 assertions). |
+| `shipped/` | Build artifacts (APK, Xcode zip). **Not in git.** |
+| `misc/` | Non-code stragglers. **Not in git.** |
 
-**Ports (all localhost):**
+## 🔌 Backend
 
-| Port | Service | Notes |
-|------|---------|-------|
-| **8002** | DLsandbox backend | Dev replica of 8001. Serves `/app/{signin,pull,sync,me,revoke}` — gate-exempt, auth-gated by `X-Gym-Token`. Also `/gymforge` + `/api/gymforge/*`. |
-| **8091** | Metro (Expo web) | The browser dev loop for the phone app (watch mode, hot-reload). |
-| 8001 | Storm / GymForge (frozen) | **Live reference — NEVER touch.** Visual source of truth for the look. |
-| 8081 | Qwen archivist LLM | Memory/compaction. **Never touch.** |
-
-**Key architecture decision (10-23):** *Phone is the true source, server is backup.* Sign-in
-auto-pulls the full dataset; manual sync **full-adopts** the phone's complete dataset onto the
-server (replace, no merge/cursor/uuid/soft-delete/conflict-resolution). A record not sent = dropped.
-Sync is one direction.
-
----
-
-## 🔁 Startup / Relaunch (copy-paste, proven 10-24)
-
-_Use when 8002/8091 are down (WSL2 sleep/restart kills them). Verify at the bottom._
-
-### 1. Backend — 8002 (DLsandbox)
-```bash
-cd ~/.openclaw/workspace/projects/douglabs_sandbox
-source venv/bin/activate
-python3 web_server.py
-```
-**tmux (preferred — survives shell close; `tmux ls`, `tmux kill-session -t DLsandbox`):**
-```bash
-cd ~/.openclaw/workspace/projects/douglabs_sandbox
-tmux new-session -d -s DLsandbox -x 200 -y 50 'venv/bin/python web_server.py 2>&1 | tee /tmp/dlsandbox-8002.log; tail -f /dev/null'
-```
-- **Logs:** `/tmp/dlsandbox-8002.log`. Startup is good when you see
-  `GymForge routes registered (/gymforge + /api/gymforge/* + /app/*)`.
-- **DB:** `douglabs_sandbox/gymforge/gymforge.db` (self-contained).
-- ⚠ **`.env` has a duplicate `STORM_DIR`** — dotenv uses the **last** one, which is
-  `douglabs_sandbox` (so it points at its own DB, not the frozen 8001). **Do not "fix" this** —
-  it's load-bearing.
-
-### 2. Frontend — 8091 (Metro / Expo web)
-```bash
-cd ~/.openclaw/workspace/projects/unguided/app
-bash start-metro-web.sh          # == npx expo start --web --port 8091 --lan
-```
-**Quick one-liner (nohup) — fine for a check, but dies with the shell:**
-```bash
-cd ~/.openclaw/workspace/projects/unguided/app
-nohup npx expo start --web --port 8091 --clear >metro-8091.log 2>&1 & echo "metro pid $!"
-```
-**tmux (preferred — killable/restartable):**
-```bash
-cd ~/.openclaw/workspace/projects/unguided/app
-tmux new-session -d -s metro -x 200 -y 50 'bash start-metro-web.sh 2>&1 | tee /tmp/metro-8091.log; tail -f /dev/null'
-```
-- **Logs:** `/tmp/metro-8091.log` (tmux) or `app/metro-8091.log` (nohup).
-- Open in browser: **http://localhost:8091** → sign in `member` / `member` (seeded member #7,
-  484 logs / 22 PRs).
-- ⚠ **NEVER `pkill -f "expo start"` inside the same `exec` that also launches Metro** — the
-  pattern matches the exec's own shell → SIGTERM aborts the whole command (hit 10-24). To stop
-  Metro, kill the tmux session: `tmux kill-session -t metro`.
-
-### 3. Verify both are up
-```bash
-curl -s -o /dev/null -w "8002 signin: %{http_code}\n" -X POST http://127.0.0.1:8002/app/signin \
-  -H 'Content-Type: application/json' -d '{"username":"member","password":"member"}'   # 401 = alive (auth responding); 200 only on valid creds
-curl -s -o /dev/null -w "8091 metro:  %{http_code}\n" http://localhost:8091/                  # 200 = serving
-```
-
----
-
-## 🧩 The `/app/*` API (8002 → app)
+The app talks to the **DougLabs Sandbox** backend (port 8002) via five endpoints:
 
 | Endpoint | Purpose |
 |----------|---------|
-| `POST /app/signin` | `{username,password}` → `{token, user}`. Start every session here. |
-| `GET /app/pull` | Full dataset for the signed-in member (`X-Gym-Token`): `{member, logs, prs, pulled_at}`. |
-| `POST /app/sync` | **Full-adopt** the phone's dataset onto the server (replace). |
-| `GET /app/me` | Current member profile. |
-| `POST /app/revoke` | Revoke the token (Sign out). |
+| `POST /app/signin` | `{username,password}` → `{token, user}` |
+| `GET /app/pull` | Full dataset for the signed-in member |
+| `POST /app/sync` | Full-adopt the phone's dataset onto the server |
+| `GET /app/me` | Current member profile |
+| `POST /app/revoke` | Revoke the token (sign out) |
 
-All `/app/*` are **gate-exempt** (no Storm entry gate) but **auth-gated** by the `X-Gym-Token`
-header from `/app/signin`.
+All `/app/*` are gate-exempt (no entry gate) but auth-gated by `X-Gym-Token`.
 
----
+Backend code lives in `../douglabs_sandbox/` (separate project, port 8002, tmux `DLsandbox`).
 
-## ⚠️ Known data caveat (S3 will fix)
+## 🚀 Development
 
-484/485 member logs store `details` as a **double-encoded corrupt string** `'"[]"'` (decodes to
-an *empty* array) — a server-side serialization bug that predates this project. `8002 /app/pull`
-returns the raw mangled value. Only 1 log has real sets. The app's `parseDetails`
-(`app/src/localStore.ts`) JSON-parses once → gets a string → returns `[]`, so set-less logs show
-"—". **Fix is bundled into Phase 3.0 S3 (Enter Workout)** since that screen writes the real values.
-Detail: `../../memory/2026-10-23.md` (21:16) + `UNGUIDED-PLAN.md` §Phase 3.0 (S3-note row).
+### Prerequisites
+- Node 22+
+- Expo SDK (in `app/package.json`)
+- Backend on port 8002 (see `../douglabs_sandbox/`)
 
----
+### Web dev loop (browser)
+```bash
+cd app
+npx expo start --web --port 8091 --lan
+```
+Open `http://localhost:8091`. Sign in with seeded member credentials.
 
-## 📚 Pointers
-- **Phase 3.0 step plan (S1–S7) + gates:** `UNGUIDED-PLAN.md` §Phase 3.0.
-- **What's done / next:** `../../ACTIVE-PLAN.md` (Unguided workstream).
-- **Setup-specifics (browser tool, messaging, install protocol):** `../../TOOLS.md`.
-- **Backups:** `dougs_backups/<file>.pN` — back up before every edit.
+### Android (device)
+```bash
+cd app
+./android/gradlew assembleRelease -PreactNativeArchitectures=arm64-v8a
+```
+APK: `app/android/app/build/outputs/apk/release/app-release.apk` (30 MB, arm64-v8a).
+
+### iOS (device)
+Xcode project in `app/ios/`. Requires Apple developer account + signing config.
+See `app/README-IOS-BUILD.md`.
+
+### Expo Go (quick iOS/iPad test)
+`cd app && npx expo start` → scan QR with Expo Go. Requires Tailscale funnel URL
+(`EXPO_PUBLIC_SERVER_URL`) for server connectivity.
+
+### Tests
+```bash
+# Core conformance (572 fixtures)
+npx tsx test/conformance.test.ts
+
+# App tests
+cd app && npx tsx test/timerEngine.test.ts
+```
+
+## 📄 Key docs
+
+| Doc | What |
+|-----|------|
+| [`UNGUIDED-PLAN.md`](UNGUIDED-PLAN.md) | Phase plan (0–5) + all gates + status |
+| [`app/ANDROID-BUILD.md`](app/ANDROID-BUILD.md) | Android release APK build + deploy |
+| [`app/README-IOS-BUILD.md`](app/README-IOS-BUILD.md) | iOS build + Xcode setup |
+| [`app/EXPO-GO-IOS.md`](app/EXPO-GO-IOS.md) | Expo Go iOS/iPad setup (Tailscale) |
+| [`app/AUTH-SPEC.md`](app/AUTH-SPEC.md) | Auth model (PBKDF2, SecureStore, token lifecycle) |
+| [`app/AGENTS.md`](app/AGENTS.md) | App-level agent instructions |
+
+## 🦈 Phase history
+
+| Phase | What | Status |
+|-------|------|--------|
+| 0 | 8002 sandbox copy | ✅ |
+| 1 | Verify core (572 fixtures) | ✅ |
+| 2.0 | Server prep (`/app/*` endpoints) | ✅ |
+| 2.1 | Browser app (Expo, web) | ✅ |
+| 2.8 | Logic truth on real storage | ✅ |
+| 3.0 | Build the OpenGym app (14 screens) | ✅ |
+| 3.8 | Device (Android APK + iOS) | ✅ |
+| 4 | Stella Scenario (acceptance test) | ✅ |
+| 5 | Fold back + ship (8001) | ✅ |
