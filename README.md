@@ -4,7 +4,9 @@
 browser-first, backed by the **DougLabs Sandbox** (a frozen dev replica of the live 8001
 Storm/GymForge server). This file is the **startup + orientation source of truth**.
 
-> Contract / phase plan: [`UNGUIDED-PLAN.md`](UNGUIDED-PLAN.md) (Phase 3.0 = the OpenGym build).
+> **Status: ✅ SHIPPED (2026-11-17).** All 9 phases complete. Stella Scenario acceptance test passed.
+
+> Contract / phase plan: [`UNGUIDED-PLAN.md`](UNGUIDED-PLAN.md).
 > Live status board: `../../ACTIVE-PLAN.md`. Daily investigation logs: `../../memory/YYYY-MM-DD.md`.
 
 ---
