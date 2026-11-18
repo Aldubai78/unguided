@@ -17,6 +17,7 @@ import { api } from "../src/api";
 import { getProgress, showEggIndicator, reset as resetEgg } from "../src/pacmanProgress";
 import FreakConfirm, { FreakConfirmHandle } from "./FreakConfirm";
 import EggToast, { EggToastHandle } from "./EggToast";
+import ChamberEntryOverlay, { ChamberEntryHandle } from "./ChamberEntryOverlay";
 
 import { oneLine, CHROME_MAX_SCALE } from "../src/textFit";
 const HOME_ROUTE = "OpenGym";
@@ -42,7 +43,9 @@ export default function AppHeader({ navigation, route }: NativeStackHeaderProps)
   // of which route is active.
   const [freak, setFreak] = useState<FreakConfirmHandle | null>(null);
   const [toast, setToast] = useState<EggToastHandle | null>(null);
+  const [descent, setDescent] = useState<ChamberEntryHandle | null>(null);
   const [chamberBusy, setChamberBusy] = useState(false);
+  const [chamberPassword, setChamberPassword] = useState<string | null>(null);
   const name = user?.display_name || user?.username || "Member";
   const isHome = route.name === HOME_ROUTE;
   const chamberActive = isHome; // 🚀 Chamber only tappable on the hub
@@ -137,10 +140,22 @@ export default function AppHeader({ navigation, route }: NativeStackHeaderProps)
         password: { label: `Password for ${user.username}`, placeholder: "your password" },
       });
       if (!res.ok || !res.password) return; // cancelled -> stay put
-      // 3) Mint a fresh chamber token (the same exchange Phase 3 hands to the socket).
-      const ok = await reauth(user.username, res.password);
-      if (!ok) return; // wrong password / offline -> reauth already surfaced it
-      // 4) In. Navigate to the stub screen (Phase 3 swaps its content, not the route).
+      // 3) Start reauth IMMEDIATELY (before the overlay opens).
+      //    The network call runs in parallel with the descent animation.
+      const username = user.username; // capture (user is non-null here)
+      const password = res.password;
+      const reauthPromise = (async (): Promise<boolean> => {
+        try {
+          return await reauth(username, password);
+        } catch {
+          return false;
+        }
+      })();
+      // 4) Play the descent overlay (pure animation, no network activity).
+      if (!descent) return;
+      const { ok } = await descent.open(reauthPromise);
+      if (!ok) return; // reauth failed — overlay already showed the fail message
+      // 5) In. Navigate to the lobby.
       try {
         navigation.navigate("Chamber");
       } catch {
@@ -149,7 +164,7 @@ export default function AppHeader({ navigation, route }: NativeStackHeaderProps)
     } finally {
       setChamberBusy(false);
     }
-  }, [chamberBusy, freak, user, reauth, navigation, toast]);
+  }, [chamberBusy, freak, user, reauth, navigation, toast, descent, chamberPassword]);
 
   return (
     <View style={styles.root}>
@@ -205,13 +220,14 @@ export default function AppHeader({ navigation, route }: NativeStackHeaderProps)
           hitSlop={4}
           testID="header-chamber"
         >
-          <Text numberOfLines={1} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.chamberText}>{chamberBusy ? "…" : "🚀 Chamber"}</Text>
+          <Text numberOfLines={1} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.chamberText}>{chamberBusy ? "Unlocking" : "🚀 Chamber"}</Text>
         </TouchableOpacity>
       </View>
 
       {/* CoC Phase 2 entry-ritual modals (render above the current screen). */}
       <FreakConfirm handle={setFreak} />
       <EggToast handle={setToast} />
+      <ChamberEntryOverlay handle={setDescent} />
     </View>
   );
 }

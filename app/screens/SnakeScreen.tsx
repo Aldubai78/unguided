@@ -612,7 +612,7 @@ const styles = StyleSheet.create({
   },
   ctrlGap: { width: 24 },
   dirBtn: {
-    height: 76,
+    height: 152,
     borderRadius: 14,
     backgroundColor: C.btn,
     borderWidth: 1,
