@@ -8,6 +8,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useAuth } from "../src/AuthContext";
 import { credStore } from "../src/credStore";
 
+import { oneLine } from "../src/textFit";
 export default function SignInScreen() {
   const { signIn, register, busy, error } = useAuth();
   const [username, setUsername] = useState("");
@@ -97,7 +98,7 @@ export default function SignInScreen() {
         ) : (
           <Text style={styles.shark}>🦈</Text>
         )}
-        <Text style={[styles.title, { letterSpacing: 3 }]}>Unguided</Text>
+        <Text {...oneLine} style={styles.title}>Unguided</Text>
         <Text style={styles.byline}>by Doug Labs</Text>
 
         <Text style={styles.label}>USERNAME</Text>

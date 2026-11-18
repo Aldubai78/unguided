@@ -21,6 +21,7 @@ import { readCache, writeCache, type BoardKey } from "../src/leaderboardCache";
 import FreakConfirm, { type FreakConfirmHandle } from "./FreakConfirm";
 import { useAuth } from "../src/AuthContext";
 
+import { oneLine, CHROME_MAX_SCALE } from "../src/textFit";
 const C = {
   root: "#111",
   chip: "#1a1a1a",
@@ -159,8 +160,8 @@ export default function WWT10Overlay({ score, diff, board = "snake", label = "WW
         onPress={() => { onOpen?.(); openModal(); }}
         testID={`wwt10-chip-${diff}`}
       >
-        <Text style={styles.chipLabel}>{label}</Text>
-        <Text style={styles.chipScore}>{String(score).padStart(scoreDigits, "0")}</Text>
+        <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.chipLabel}>{label}</Text>
+        <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.chipScore}>{String(score).padStart(scoreDigits, "0")}</Text>
       </TouchableOpacity>
 
       <Modal
@@ -171,7 +172,7 @@ export default function WWT10Overlay({ score, diff, board = "snake", label = "WW
       >
         <View style={styles.modalBack}>
           <View style={styles.modalBody}>
-            <Text style={styles.modalTitle}>
+            <Text {...oneLine} style={styles.modalTitle}>
               {isPacman ? "🟡 Pac-Man World Wide" : "🐍 World Wide Top 10"}
             </Text>
             <Text style={styles.modalSub}>
@@ -225,8 +226,8 @@ export default function WWT10Overlay({ score, diff, board = "snake", label = "WW
 
                   return rows.slice(0, 10).map((row) => (
                     <View key={row.rank} style={[styles.row, row.isYou && styles.youRow]}>
-                      <Text style={[styles.rowRank, row.isYou && styles.youText]}>#{row.rank}</Text>
-                      <Text style={[styles.rowName, row.isYou && styles.youText]}>{row.name}</Text>
+                      <Text {...oneLine} style={[styles.rowRank, row.isYou && styles.youText]}>#{row.rank}</Text>
+                      <Text numberOfLines={1} style={[styles.rowName, row.isYou && styles.youText]}>{row.name}</Text>
                       <Text style={[styles.rowScore, row.isYou && styles.youText]}>{String(row.score).padStart(3, "0")}</Text>
                     </View>
                   ));

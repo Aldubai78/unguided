@@ -34,6 +34,7 @@ import type { Direction, Ghost, GameState, GameEvent } from "../src/pacman/types
 import WWT10Overlay from "../components/WWT10Overlay";
 import { getBoundMemberId } from "../src/pacmanProgress";
 
+import { oneLine, CHROME_MAX_SCALE } from "../src/textFit";
 // Device-store keys (web: localStorage shim; Phase 3.8 → secure store)
 const bestKey = () => `unguided.pacman.best.${getBoundMemberId() ?? "anon"}`;
 const savedKey = () => `unguided.pacman.saved.${getBoundMemberId() ?? "anon"}`;
@@ -513,10 +514,10 @@ export default function PacManScreen() {
       {/* 1. Upper Mobile HUD: [1UP score] [Level] [TOP pill → leaderboard] */}
       <View style={styles.scoreRow}>
         <View style={styles.scoreGroup}>
-          <Text style={styles.scoreLabel}>1UP</Text>
-          <Text style={styles.scoreVal}>{String(s.score).padStart(6, "0")}</Text>
+          <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.scoreLabel}>1UP</Text>
+          <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.scoreVal}>{String(s.score).padStart(6, "0")}</Text>
         </View>
-        <Text style={styles.levelText}>L{s.level}</Text>
+        <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.levelText}>L{s.level}</Text>
         <WWT10Overlay
           score={Math.max(high, s.score)}
           diff="rx"
@@ -696,14 +697,14 @@ export default function PacManScreen() {
             >
               {introPhase === "coin" ? (
                 // ── Phase 1: INSERT COIN blinking ──
-                <Text style={[styles.arcadeCoinText, { opacity: coinBlink ? 1 : 0.15 }]}>
+                <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={[styles.arcadeCoinText, { opacity: coinBlink ? 1 : 0.15 }]}>
                   INSERT COIN
                 </Text>
               ) : introPhase === "parade" ? (
                 // ── Phase 2: Pac-Man + 4 ghosts glide L→R (SVG) ──
                 <View style={styles.paradeTrack}>
                   {coinVisible && (
-                    <Text style={styles.arcadeCoinText}>INSERT COIN</Text>
+                    <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.arcadeCoinText}>INSERT COIN</Text>
                   )}
                   <Svg
                     width={width}
@@ -749,31 +750,31 @@ export default function PacManScreen() {
                 </View>
               ) : introPhase === "press" ? (
                 // ── Phase 3: PRESS TO START ──
-                <Text style={styles.arcadeCoinText}>PRESS TO START</Text>
+                <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.arcadeCoinText}>PRESS TO START</Text>
               ) : (
                 // ── Normal welcome gate (no intro) ──
                 <>
                   <Svg width={48} height={48} viewBox="-0.5 -0.5 1 1">
                     <Path d={PAC_OPEN} fill={C.pac} />
                   </Svg>
-                  <Text style={styles.welcomeTitle}>PAC-MAN</Text>
+                  <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.welcomeTitle}>PAC-MAN</Text>
                   {high > 0 && (
-                    <Text style={styles.bestChip}>
-                      TOP <Text style={styles.scoreVal}>{String(high).padStart(6, "0")}</Text>
+                    <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.bestChip}>
+                      TOP <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.scoreVal}>{String(high).padStart(6, "0")}</Text>
                     </Text>
                   )}
-                  <Text style={styles.insertCoin}>INSERT COIN</Text>
+                  <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.insertCoin}>INSERT COIN</Text>
                   <View style={styles.welcomeBtns}>
                     <TouchableOpacity style={styles.restartBtn} onPress={handleStart} testID="pacman-start">
-                      <Text style={styles.restartText}>Start</Text>
+                      <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.restartText}>Start</Text>
                     </TouchableOpacity>
                     {hasSaved && (
                       <TouchableOpacity style={styles.restartBtn} onPress={handleContinue} testID="pacman-continue">
-                        <Text style={styles.restartText}>Continue</Text>
+                        <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.restartText}>Continue</Text>
                       </TouchableOpacity>
                     )}
                   </View>
-                  <Text style={styles.overlaySub}>tap to start</Text>
+                  <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlaySub}>tap to start</Text>
                 </>
               )}
             </TouchableOpacity>
@@ -784,19 +785,19 @@ export default function PacManScreen() {
               activeOpacity={0.8}
               onPress={onBoardPress}
             >
-              <Text style={styles.overlayText}>PAUSED</Text>
-              <Text style={styles.overlaySub}>tap the box to resume</Text>
+              <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlayText}>PAUSED</Text>
+              <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlaySub}>tap the box to resume</Text>
             </TouchableOpacity>
           )}
           {s.phase === "gameOver" && (
             <View style={styles.overlay}>
-              <Text style={styles.overlayText}>GAME OVER</Text>
-              <Text style={styles.overlayScore}>
+              <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlayText}>GAME OVER</Text>
+              <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlayScore}>
                 {s.score} {s.score === 1 ? "point" : "points"}
               </Text>
-              {s.score >= high && s.score > 0 && <Text style={styles.newBest}>NEW BEST 🦈</Text>}
+              {s.score >= high && s.score > 0 && <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.newBest}>NEW BEST 🦈</Text>}
               <TouchableOpacity style={styles.restartBtn} onPress={handleRestart}>
-                <Text style={styles.restartText}>Restart</Text>
+                <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.restartText}>Restart</Text>
               </TouchableOpacity>
             </View>
           )}
@@ -807,7 +808,7 @@ export default function PacManScreen() {
           )}
           {bonusLifeVisible && (
             <View style={[styles.overlay, { backgroundColor: "transparent" }]}>
-              <Text style={styles.extraLifeText}>EXTRA LIFE!</Text>
+              <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.extraLifeText}>EXTRA LIFE!</Text>
             </View>
           )}
         </View>
@@ -847,8 +848,8 @@ export default function PacManScreen() {
                 </Svg>
               ))}
             </View>
-            <Text style={styles.fruit}>{fruitForLevel(s.level)}</Text>
-            <Text style={styles.pelletCount}>{s.pelletsLeft} left</Text>
+            <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.fruit}>{fruitForLevel(s.level)}</Text>
+            <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.pelletCount}>{s.pelletsLeft} left</Text>
           </View>
 
           {/* Right D-pad: full cross (◀ ▲ ▼ ▶) */}
@@ -900,7 +901,7 @@ const DpadBtn: React.FC<{
       }}
       activeOpacity={0.8}
     >
-      <Text style={styles.dpadArrow}>{arrow[dir]}</Text>
+      <Text allowFontScaling={false} style={styles.dpadArrow}>{arrow[dir]}</Text>
     </TouchableOpacity>
   );
 }

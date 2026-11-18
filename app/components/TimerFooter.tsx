@@ -19,6 +19,7 @@ import { useNavigation } from "@react-navigation/native";
 import { useTimer } from "../src/TimerContext";
 import { fmtClock, type TimerMode } from "../src/timerEngine";
 
+import { CHROME_MAX_SCALE } from "../src/textFit";
 const MODE_LABEL: Record<TimerMode, string> = {
   stopwatch: "UP",
   countdown: "DOWN",
@@ -73,13 +74,13 @@ export function TimerFooter() {
   return (
     <View style={styles.root}>
       <TouchableOpacity style={styles.body} onPress={goTimer} activeOpacity={0.8}>
-        <Text style={styles.label}>{label}</Text>
-        <Text style={styles.clock}>{heroStr}</Text>
-        {sub ? <Text style={styles.sub}>{sub}</Text> : null}
+        <Text numberOfLines={1} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.label}>{label}</Text>
+        <Text numberOfLines={1} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.clock}>{heroStr}</Text>
+        {sub ? <Text numberOfLines={1} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.sub}>{sub}</Text> : null}
       </TouchableOpacity>
       {/* X = dismiss (timer keeps running). */}
       <TouchableOpacity style={styles.x} onPress={t.dismiss} hitSlop={8} testID="timer-footer-dismiss">
-        <Text style={styles.xText}>✕</Text>
+        <Text allowFontScaling={false} style={styles.xText}>✕</Text>
       </TouchableOpacity>
     </View>
   );

@@ -104,7 +104,7 @@ async function pickCsvNative(): Promise<PickCsvResult> {
     text = text.replace(/^\uFEFF/, "");
     return { text };
   } catch (e) {
-    console.error("[pickCsvFile] native picker failed:", e?.message ?? e);
+    console.error("[pickCsvFile] native picker failed:", e instanceof Error ? e.message : String(e));
     console.error("[pickCsvFile] stack:", e instanceof Error ? e.stack : "(not an Error)");
     return null;
   }

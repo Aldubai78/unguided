@@ -13,6 +13,7 @@ import FreakConfirm, { FreakConfirmHandle } from "../components/FreakConfirm";
 import SavedModal from "../components/SavedModal";
 import { ApiError } from "../src/api";
 
+import { oneLine } from "../src/textFit";
 export default function ProfileScreen() {
   const { user, counts, signOut, busy, status, setStatus, backup, restore, deleteData, checkUpdates, reauth, api } = useAuth();
   const name = user?.display_name || user?.username || "Member";
@@ -149,7 +150,7 @@ export default function ProfileScreen() {
     <View style={styles.root}>
       <ScrollView style={styles.scroll} contentContainerStyle={styles.scrollContent} keyboardShouldPersistTaps="handled">
       <View style={styles.card}>
-        <Text style={styles.name}>{name}</Text>
+        <Text {...oneLine} style={styles.name}>{name}</Text>
         {user ? (
           <Text style={styles.meta}>
             member #{user.member_id ?? "?"} · role {user.role}

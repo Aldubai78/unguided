@@ -18,6 +18,7 @@ import { getProgress, showEggIndicator, reset as resetEgg } from "../src/pacmanP
 import FreakConfirm, { FreakConfirmHandle } from "./FreakConfirm";
 import EggToast, { EggToastHandle } from "./EggToast";
 
+import { oneLine, CHROME_MAX_SCALE } from "../src/textFit";
 const HOME_ROUTE = "OpenGym";
 
 // Page titles for the header bar. Home (OpenGym) is blank (self-evident).
@@ -159,37 +160,37 @@ export default function AppHeader({ navigation, route }: NativeStackHeaderProps)
       <View style={styles.row1}>
         {isHome ? (
           <View style={styles.back}>
-            <Text style={styles.backChevron} />
+            <Text allowFontScaling={false} style={styles.backChevron} />
           </View>
         ) : (
           <TouchableOpacity style={styles.back} onPress={onBack} hitSlop={8} testID="header-back">
-            <Text style={styles.backChevron}>‹</Text>
+            <Text allowFontScaling={false} style={styles.backChevron}>‹</Text>
           </TouchableOpacity>
         )}
         <TouchableOpacity onPress={onSharkTap} hitSlop={4} testID="header-shark">
-          <Text style={styles.shark}>🦈</Text>
+          <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.shark}>🦈</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.wordmarkBtn} onPress={onHome} hitSlop={4} testID="header-home">
-          <Text style={styles.wordmark}>Unguided</Text>
+          <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.wordmark}>Unguided</Text>
         </TouchableOpacity>
-        <Text style={styles.byline}>by Doug Labs</Text>
+        <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.byline}>by Doug Labs</Text>
       </View>
 
       {/* Row 2: 👤 [Name] (tap->Profile) · [icon+title] centered · Sign out */}
       <View style={styles.row2}>
         <TouchableOpacity style={styles.nameWrap} onPress={onName} hitSlop={4} testID="header-name">
-          <Text style={styles.profileIcon}>👤</Text>
-          <Text style={styles.name} numberOfLines={1}>
+          <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.profileIcon}>👤</Text>
+          <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.name} numberOfLines={1}>
             {name}
           </Text>
         </TouchableOpacity>
         <View style={styles.titleSlot}>
           {isHome && eggVisible ? (
-            <Text style={styles.eggCounter}>
+            <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.eggCounter}>
               🥚 {eggCount}/4
             </Text>
           ) : pageTitleEntry ? (
-            <Text style={styles.pageTitle}>
+            <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.pageTitle}>
               {pageTitleEntry.icon} {pageTitleEntry.label}
             </Text>
           ) : null}
@@ -204,7 +205,7 @@ export default function AppHeader({ navigation, route }: NativeStackHeaderProps)
           hitSlop={4}
           testID="header-chamber"
         >
-          <Text style={styles.chamberText}>{chamberBusy ? "…" : "🚀 Chamber"}</Text>
+          <Text numberOfLines={1} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.chamberText}>{chamberBusy ? "…" : "🚀 Chamber"}</Text>
         </TouchableOpacity>
       </View>
 
@@ -232,18 +233,21 @@ const styles = StyleSheet.create({
   back: { width: 28, height: 34, alignItems: "center", justifyContent: "center", marginRight: 4 },
   backChevron: { color: colors.accentSoft, fontSize: 30, lineHeight: 34, fontWeight: "300" }, // Grok S7: mantra blue
   shark: { fontSize: 26, marginRight: 8 },
-  wordmarkBtn: { flexDirection: "row" },
-  wordmark: { color: "#fff", fontSize: 26, fontWeight: "900", letterSpacing: 0.5 },
-  byline: { color: "#556", fontSize: 12, fontWeight: "400", fontStyle: "italic", marginLeft: 8 },
+  // flexShrink lets the wordmark and byline shrink-to-fit (oneLine) on narrow
+  // phones or large text sizes instead of pushing the row off-screen.
+  wordmarkBtn: { flexDirection: "row", flexShrink: 1 },
+  wordmark: { color: "#fff", fontSize: 26, fontWeight: "900", letterSpacing: 0.5, flexShrink: 1 },
+  byline: { color: "#556", fontSize: 12, fontWeight: "400", fontStyle: "italic", marginLeft: 8, flexShrink: 1 },
   row2: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
     marginTop: 6,
   },
-  nameWrap: { flexDirection: "row", alignItems: "center" },
+  // maxWidth keeps a long display name from squeezing the page title out.
+  nameWrap: { flexDirection: "row", alignItems: "center", flexShrink: 1, maxWidth: "38%" },
   profileIcon: { fontSize: 14, marginRight: 5 },
-  name: { color: "#ddd", fontSize: 14, fontWeight: "600" },
+  name: { color: "#ddd", fontSize: 14, fontWeight: "600", flexShrink: 1 },
   titleSlot: { flex: 1, alignItems: "center" },
   pageTitle: { color: colors.accentSoft, fontSize: 13, fontWeight: "600" }, // Grok S7: mantra blue
   eggCounter: { color: "#f5d442", fontSize: 13, fontWeight: "700", letterSpacing: 0.5 },

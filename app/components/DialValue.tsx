@@ -25,6 +25,7 @@ import { View, Text, StyleSheet, Animated, PanResponder, Easing } from "react-na
 
 import { ROW_H as DEFAULT_ROW_H, snapY, flingTarget, wrapIndex } from "./dialMath";
 
+import { CHROME_MAX_SCALE } from "../src/textFit";
 export { ROW_H, snapY, flingTarget } from "./dialMath";
 
 interface DialValueProps {
@@ -186,7 +187,7 @@ const DialValue = React.forwardRef<DialValueRef, DialValueProps>(
       style={[styles.wrap, { touchAction: "none" }] as any}
       {...responder.panHandlers}
     >
-      {label ? <Text style={styles.label}>{label}</Text> : null}
+      {label ? <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.label}>{label}</Text> : null}
       <View style={[styles.well, { height: rowH * 3, width }]}>
         {visible.map(({ key, idx, val, off }) => (
           <View
@@ -197,6 +198,7 @@ const DialValue = React.forwardRef<DialValueRef, DialValueProps>(
             ]}
           >
             <Text
+              allowFontScaling={false}
               style={[
                 styles.digit,
                 { fontSize: digitSize },

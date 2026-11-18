@@ -27,6 +27,7 @@ import {
   ScrollView,
   BackHandler,
   Platform,
+  useWindowDimensions,
 } from "react-native";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { useTimer } from "../src/TimerContext";
@@ -36,6 +37,7 @@ import DialValue, { type DialValueRef } from "../components/DialValue";
 import { fmtClock, MAX_SEC, type TimerConfig, type TimerMode } from "../src/timerEngine";
 import { shadow } from "../src/theme";
 
+import { oneLine } from "../src/textFit";
 // Mode metadata: id -> display label (capitalized). UP = stopwatch (counts up),
 // DOWN = countdown (counts down), EMOM = per-window.
 const MODE_LABEL: Record<TimerMode, string> = {
@@ -70,10 +72,32 @@ function displayDigits(ms: number, windup: number | null): (string | ":")[] {
   return [t[0], t[1], ":", t[3], t[4]];
 }
 
+// Full-size width of the LED clock: 4 wells × 70 + colon 18 + 4 gaps × 10
+// + 16 padding and 2 border on each side. Wider than a standard iPhone's
+// content area (e.g. 354pt on a 402pt-wide phone), so it scales down to fit.
+const CLOCK_NATURAL_W = 4 * 70 + 18 + 4 * 10 + 2 * 16 + 2 * 2;
+const SCROLL_SIDE_PAD = 24;
+
+/** Clock dimensions scaled by k (1 = the original fixed design). */
+function clockMetrics(k: number) {
+  return {
+    frame: { paddingVertical: 12 * k, paddingHorizontal: 16 * k, gap: 10 * k },
+    colon: { width: 18 * k, height: 104 * k, gap: 14 * k },
+    dot: { width: 8 * k, height: 8 * k, borderRadius: 4 * k },
+    well: { width: 70 * k, height: 104 * k },
+    digit: { fontSize: 82 * k, lineHeight: 104 * k },
+  };
+}
+
 export default function TimerScreen() {
   const navigation = useNavigation<any>();
   const t = useTimer();
   const insets = useSafeAreaInsets();
+  const { width: screenW } = useWindowDimensions();
+  const clock = useMemo(
+    () => clockMetrics(Math.min(1, (screenW - 2 * SCROLL_SIDE_PAD) / CLOCK_NATURAL_W)),
+    [screenW],
+  );
   const [selected, setSelected] = useState<TimerMode>("stopwatch"); // default UP 20:00
   const [showConfig, setShowConfig] = useState(false);
   // Refs to the dial components — confirmConfig reads their live values.
@@ -274,18 +298,18 @@ export default function TimerScreen() {
         <View style={styles.heroWrap}>
           {/* State title: "UP 20:00" / "DOWN 20:00" / "EMOM 20:00". Hidden in
               CLEAR (no config) — blank slate, no dead vertical space. */}
-          {titleStr ? <Text style={styles.stateTitle}>{titleStr}</Text> : null}
+          {titleStr ? <Text {...oneLine} style={styles.stateTitle}>{titleStr}</Text> : null}
           {/* 4-digit LED display */}
-          <View style={styles.clockFrame}>
+          <View style={[styles.clockFrame, clock.frame]}>
             {digits.map((d, i) =>
               d === ":" ? (
-                <View key={i} style={styles.colon}>
-                  <View style={styles.colonDot} />
-                  <View style={styles.colonDot} />
+                <View key={i} style={[styles.colon, clock.colon]}>
+                  <View style={[styles.colonDot, clock.dot]} />
+                  <View style={[styles.colonDot, clock.dot]} />
                 </View>
               ) : (
-                <View key={i} style={styles.well}>
-                  <Text style={[styles.digit, { color: digitColor }]}>{d}</Text>
+                <View key={i} style={[styles.well, clock.well]}>
+                  <Text allowFontScaling={false} style={[styles.digit, clock.digit, { color: digitColor }]}>{d}</Text>
                   <View style={styles.wellReflect} />
                 </View>
               ),

@@ -25,6 +25,7 @@ import { chamberGate } from "../src/chamberGate";
 import type { ChamberState, ChamberPersona, DougStatus } from "../src/apiTypes";
 import { config } from "../config/app-config";
 
+import { oneLine } from "../src/textFit";
 type Nav = NativeStackNavigationProp<RootParamList, "Chamber">;
 
 interface Props {
@@ -216,7 +217,7 @@ export default function ChamberLanding({ onEnter }: Props) {
         <View style={styles.occupancy}>
           <Text style={styles.occupancyEmoji}>🚀</Text>
           <View style={styles.occupancyText}>
-            <Text style={styles.occupancyTitle}>Chamber of Chaos</Text>
+            <Text {...oneLine} style={styles.occupancyTitle}>Chamber of Chaos</Text>
             <Text style={styles.occupancySub}>
               {state ? (state.count > 0 ? `${state.count} inside` : "empty — chaos awaits") : "…"}
             </Text>
@@ -271,7 +272,7 @@ export default function ChamberLanding({ onEnter }: Props) {
                   activeOpacity={taken ? 1 : 0.7}
                 >
                   <Text style={styles.pickerEmoji}>{p.emoji}</Text>
-                  <Text style={[styles.pickerName, taken && styles.pickerNameTaken]}>
+                  <Text {...oneLine} style={[styles.pickerName, taken && styles.pickerNameTaken]}>
                     {p.persona}
                   </Text>
                   {taken && <Text style={styles.takenBadge}>taken</Text>}

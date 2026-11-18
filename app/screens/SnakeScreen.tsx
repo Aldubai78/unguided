@@ -44,6 +44,7 @@ import {
 import { useFocusEffect } from "@react-navigation/native";
 import WWT10Overlay from "../components/WWT10Overlay";
 
+import { oneLine, CHROME_MAX_SCALE } from "../src/textFit";
 // --- Grown-up-Nokia palette (matches the app's dark theme) -----------------
 const C = {
   root: "#111",
@@ -395,8 +396,8 @@ export default function SnakeScreen({ navigation }: any) {
           future Timer banner on this page). */}
       <View style={styles.scoreRow} testID="snake-score-row">
         <View style={styles.scoreGroup}>
-          <Text style={styles.scoreLabel}>1UP</Text>
-          <Text style={styles.scoreVal}>{String(s.score).padStart(3, "0")}</Text>
+          <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.scoreLabel}>1UP</Text>
+          <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.scoreVal}>{String(s.score).padStart(3, "0")}</Text>
         </View>
         {/* RX ↔ Scaled difficulty toggle (between-games only). */}
         <View
@@ -414,7 +415,7 @@ export default function SnakeScreen({ navigation }: any) {
                 style={[styles.diffPill, on && styles.diffPillOn]}
                 testID={`snake-diff-${d}`}
               >
-                <Text style={[styles.diffPillText, on && styles.diffPillTextOn]}>
+                <Text numberOfLines={1} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={[styles.diffPillText, on && styles.diffPillTextOn]}>
                   {d === "rx" ? "RX" : "Scaled"}
                 </Text>
               </TouchableOpacity>
@@ -427,7 +428,7 @@ export default function SnakeScreen({ navigation }: any) {
             onPress={() => navigation.navigate("PacMan")}
             testID="snake-pac-pill"
           >
-            <Text style={styles.pacPillText}>🟡</Text>
+            <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.pacPillText}>🟡</Text>
           </TouchableOpacity>
         )}
         {showWWT10 ? (
@@ -451,8 +452,8 @@ export default function SnakeScreen({ navigation }: any) {
             }}
             testID="snake-wwt10-pill"
           >
-            <Text style={styles.scoreLabel}>
-              TOP <Text style={styles.scoreVal}>{String(Math.max(high, s.score)).padStart(3, "0")}</Text>
+            <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.scoreLabel}>
+              TOP <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.scoreVal}>{String(Math.max(high, s.score)).padStart(3, "0")}</Text>
             </Text>
           </TouchableOpacity>
         )}
@@ -496,8 +497,8 @@ export default function SnakeScreen({ navigation }: any) {
               replaces it; the board is still paused underneath during the count). */}
           {!gated && countdown === null && s.state === "paused" && (
             <View style={[styles.overlay, { width: boardW, height: boardH }]}>
-              <Text style={styles.overlayTitle}>PAUSED</Text>
-              <Text style={styles.overlaySub}>tap the box to resume</Text>
+              <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlayTitle}>PAUSED</Text>
+              <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlaySub}>tap the box to resume</Text>
             </View>
           )}
 
@@ -507,10 +508,10 @@ export default function SnakeScreen({ navigation }: any) {
               launches the instant it hits 0. */}
           {countdown !== null && (
             <View style={[styles.overlay, { width: boardW, height: boardH }]} testID="snake-countdown">
-              <Text style={styles.countdownNum} key={countdown}>
+              <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.countdownNum} key={countdown}>
                 {countdown}
               </Text>
-              <Text style={styles.overlaySub}>get ready…</Text>
+              <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlaySub}>get ready…</Text>
             </View>
           )}
 
@@ -519,11 +520,11 @@ export default function SnakeScreen({ navigation }: any) {
           a game-over. Restart clears `gated` and re-arms straight into the game. */}
           {gated && s.state !== "gameover" && (
             <View style={[styles.overlay, { width: boardW, height: boardH }]} testID="snake-welcome">
-              <Text style={styles.welcomeEmoji}>🐍</Text>
-              <Text style={styles.overlayTitle}>SNAKE GAME</Text>
+              <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.welcomeEmoji}>🐍</Text>
+              <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlayTitle}>SNAKE GAME</Text>
               {high > 0 && (
-                <Text style={styles.bestChip}>
-                  BEST <Text style={styles.scoreVal}>{String(high).padStart(3, "0")}</Text>
+                <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.bestChip}>
+                  BEST <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.scoreVal}>{String(high).padStart(3, "0")}</Text>
                 </Text>
               )}
               <View style={styles.welcomeBtns}>
@@ -531,7 +532,7 @@ export default function SnakeScreen({ navigation }: any) {
                     is active only if a paused game was saved; greyed out
                     (invisible to press) when there's nothing to resume. */}
                 <TouchableOpacity style={[styles.restartBtn, styles.welcomeBtn]} onPress={onStart} testID="snake-start">
-                  <Text style={styles.restartText}>Start</Text>
+                  <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.restartText}>Start</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                   style={[styles.restartBtn, styles.welcomeBtn, !savedGame && styles.restartBtnDisabled]}
@@ -539,7 +540,7 @@ export default function SnakeScreen({ navigation }: any) {
                   disabled={!savedGame}
                   testID="snake-continue"
                 >
-                  <Text style={[styles.restartText, !savedGame && styles.restartTextDisabled]}>Continue</Text>
+                  <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={[styles.restartText, !savedGame && styles.restartTextDisabled]}>Continue</Text>
                 </TouchableOpacity>
               </View>
             </View>
@@ -548,13 +549,13 @@ export default function SnakeScreen({ navigation }: any) {
           {/* GAME-OVER overlay (restart lives here — never steals thumb space) */}
           {s.state === "gameover" && (
             <View style={[styles.overlay, { width: boardW, height: boardH }]}>
-              <Text style={styles.overlayTitle}>GAME OVER</Text>
-              <Text style={styles.overlayScore}>
+              <Text {...oneLine} maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlayTitle}>GAME OVER</Text>
+              <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.overlayScore}>
                 {s.score} {s.score === 1 ? "point" : "points"}
               </Text>
-              {s.score >= high && s.score > 0 && <Text style={styles.newBest}>NEW BEST 🦈</Text>}
+              {s.score >= high && s.score > 0 && <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.newBest}>NEW BEST 🦈</Text>}
               <TouchableOpacity style={styles.restartBtn} onPress={onRestart} testID="snake-restart">
-                <Text style={styles.restartText}>Restart</Text>
+                <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.restartText}>Restart</Text>
               </TouchableOpacity>
             </View>
           )}
@@ -571,8 +572,8 @@ export default function SnakeScreen({ navigation }: any) {
           activeOpacity={0.7}
           testID="snake-left"
         >
-          <Text style={styles.dirGlyph}>‹</Text>
-          <Text style={styles.dirLabel}>LEFT</Text>
+          <Text allowFontScaling={false} style={styles.dirGlyph}>‹</Text>
+          <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.dirLabel}>LEFT</Text>
         </TouchableOpacity>
         <View style={styles.ctrlGap} />
         <TouchableOpacity
@@ -581,8 +582,8 @@ export default function SnakeScreen({ navigation }: any) {
           activeOpacity={0.7}
           testID="snake-right"
         >
-          <Text style={styles.dirGlyph}>›</Text>
-          <Text style={styles.dirLabel}>RIGHT</Text>
+          <Text allowFontScaling={false} style={styles.dirGlyph}>›</Text>
+          <Text maxFontSizeMultiplier={CHROME_MAX_SCALE} style={styles.dirLabel}>RIGHT</Text>
         </TouchableOpacity>
       </View>
 

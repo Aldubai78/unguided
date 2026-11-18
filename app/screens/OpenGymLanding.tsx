@@ -17,6 +17,7 @@ import type { WorkoutLog } from "../src/apiTypes";
 import { consumeMantraPin, consumeFirstSignInPin } from "../src/pacmanProgress";
 import { colors, radius, spacing, type } from "../src/theme";
 
+import { oneLine, twoLines } from "../src/textFit";
 interface Feature {
   key: string;
   icon: string;
@@ -161,7 +162,7 @@ export default function OpenGymLanding({ navigation }: any) {
             testID={`og-feature-${f.key}`}
           >
             <Text style={styles.featureIcon}>{f.icon}</Text>
-            <Text style={styles.featureTitle}>{f.title}</Text>
+            <Text {...twoLines} style={styles.featureTitle}>{f.title}</Text>
             <Text style={styles.featureSub}>{f.sub}</Text>
           </TouchableOpacity>
         ))}
@@ -176,7 +177,7 @@ export default function OpenGymLanding({ navigation }: any) {
             const { date, body } = sessionLine(log);
             return (
               <View key={i} style={styles.sessionRow}>
-                <Text style={styles.sessionDate}>{date}</Text>
+                <Text {...oneLine} style={styles.sessionDate}>{date}</Text>
                 <Text style={styles.sessionBody} numberOfLines={2}>
                   {body}
                 </Text>

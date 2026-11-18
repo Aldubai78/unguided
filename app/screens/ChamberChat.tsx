@@ -45,6 +45,7 @@ import type {
   TypingEvent,
 } from "../src/chamberSocket";
 
+import { oneLine } from "../src/textFit";
 type Nav = NativeStackNavigationProp<RootParamList, "Chamber">;
 
 // ---------------------------------------------------------------------------
@@ -551,13 +552,13 @@ export default function ChamberChat({ persona, onLeave }: Props) {
       {/* — presence header — */}
       <View style={styles.presenceHeader}>
         <TouchableOpacity style={styles.backBtn} onPress={doLeave}>
-          <Text style={styles.backChevron}>←</Text>
+          <Text allowFontScaling={false} style={styles.backChevron}>←</Text>
         </TouchableOpacity>
         <View style={styles.presenceInfo}>
-          <Text style={styles.presenceTitle}>
+          <Text {...oneLine} style={styles.presenceTitle}>
             {me?.emoji ?? personaEmoji(me?.persona)} {me?.persona ?? persona}
           </Text>
-          <Text style={[styles.presenceSub, (sharkArmed || chaosArmed) && { color: "#fbbf24" }]}>
+          <Text numberOfLines={1} style={[styles.presenceSub, (sharkArmed || chaosArmed) && { color: "#fbbf24" }]}>
             {chaosArmed
               ? "🌈CHAOS DETECTED🦄"
               : sharkArmed
