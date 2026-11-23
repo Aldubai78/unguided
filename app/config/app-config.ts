@@ -43,13 +43,13 @@ export interface AppConfig {
 // internet access.
 // ---------------------------------------------------------------------------
 const API_PORT = 8001;
-const RELEASE_SERVER_URL = "https://als-gigaaitop-1.tailcf3f27.ts.net";
+const RELEASE_SERVER_URL = "https://hofserver.tailcf3f27.ts.net:8443";
 
 function resolveServerUrl(): string {
   // Explicit override wins everywhere (dev + release). Inlined at bundle time
   // by Expo (EXPO_PUBLIC_*), so it works on native dev (Expo Go) where there's
   // no window.location to derive from. Example:
-  //   EXPO_PUBLIC_SERVER_URL=https://als-gigaaitop-1.tailcf3f27.ts.net npx expo start
+  //   EXPO_PUBLIC_SERVER_URL=https://hofserver.tailcf3f27.ts.net:8443 npx expo start
   const envOverride = process.env.EXPO_PUBLIC_SERVER_URL;
   if (envOverride && envOverride.trim().length > 0) {
     return envOverride.trim().replace(/\/+$/, "");
