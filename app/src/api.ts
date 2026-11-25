@@ -10,6 +10,7 @@
 //   POST /app/revoke  (X-Gym-Token)        -> {ok}
 import { config } from "../config/app-config";
 import { tokenStore } from "./tokenStore";
+import { debug } from "./debugLog";
 import type {
   SigninResult,
   PullResult,
@@ -21,6 +22,8 @@ import type {
   PacmanScorePayload,
   SnakeDifficulty,
 } from "./apiTypes";
+
+let _logDebugOnce = false;
 
 export class ApiError extends Error {
   status: number;
@@ -99,8 +102,15 @@ export class AppApi {
     body?: unknown,
   ): Promise<{ res: Response; data: unknown }> {
     let res: Response;
+    const url = `${this.base}${path}`;
+    if (!(_logDebugOnce as boolean)) {
+      (_logDebugOnce as boolean) = true;
+      debug("api-init", `base=${this.base} token=${this.token ? "set" : "NONE"}`);
+    }
+    debug("fetch", `${method} ${url}`);
+    const t0 = Date.now();
     try {
-      res = await fetch(`${this.base}${path}`, {
+      res = await fetch(url, {
         method,
         headers: this.headers(),
         body: body === undefined ? undefined : JSON.stringify(body),
@@ -109,8 +119,10 @@ export class AppApi {
       // The fetch itself failed (no response at all) -> network failure.
       // Re-throw as an ApiError with status 0 + networkFailure so callers can
       // distinguish "no server" from "server said no".
+      debug("fetch-err", `${method} ${url} -> ${(e as Error).message} (${Date.now() - t0}ms)`);
       throw new ApiError(0, "network error — server unreachable", true, );
     }
+    debug("fetch-ok", `${method} ${url} -> ${res.status} (${Date.now() - t0}ms)`);
     let data: unknown = null;
     try {
       data = await res.json();

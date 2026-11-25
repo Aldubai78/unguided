@@ -54,11 +54,24 @@ function resolveServerUrl(): string {
   if (envOverride && envOverride.trim().length > 0) {
     return envOverride.trim().replace(/\/+$/, "");
   }
-  // Release builds (APK, native) always use the funnel URL.
+  // Native (React Native Android/iOS — __DEV__ may be true in dev-APKs with
+  // Metro wiring): ALWAYS the funnel URL. There is no window.location, and
+  // deriving from a page origin does not exist on native.
+  // NOTE: on 2026-11-25 a dev-flagged APK resolved to http://localhost:8001
+  // (phone's own loopback) because the old code treated __DEV__ as "web dev"
+  // and fell through to the DOM branch. Guarded now.
+  const isNative =
+    typeof __DEV__ !== "undefined" &&
+    typeof (globalThis as Record<string, unknown>).nativeFabricUIManager !== "undefined" ||
+    (typeof navigator !== "undefined" && !!navigator.product && navigator.product === "ReactNative");
+  if (isNative) {
+    return RELEASE_SERVER_URL;
+  }
+  // Release builds (APK, web prod) always use the funnel URL.
   if (!__DEV__) {
     return RELEASE_SERVER_URL;
   }
-  // Dev builds: derive from the page origin (PC dev, phone-on-LAN via Metro).
+  // Web dev: derive from the page origin (PC dev, phone-on-LAN via Metro).
   if (typeof window !== "undefined" && window.location && window.location.host) {
     const host = window.location.hostname; // strip :8091 from the page origin
     return `http://${host}:${API_PORT}`;
@@ -67,8 +80,13 @@ function resolveServerUrl(): string {
   return `http://localhost:${API_PORT}`;
 }
 
+import { debug } from "../src/debugLog";
+
+const _resolvedServerUrl = resolveServerUrl();
+debug("config", `serverUrl resolved: ${_resolvedServerUrl} (__DEV__=${__DEV__}, envOverride=${process.env.EXPO_PUBLIC_SERVER_URL ?? "none"})`);
+
 export const config: AppConfig = {
-  serverUrl: resolveServerUrl(),
+  serverUrl: _resolvedServerUrl,
   appVersion: "0.1.0",
   schemaVersion: 1,
   // Dev seed — matches the server's STORM_PASSPHRASE. In a fresh install the
