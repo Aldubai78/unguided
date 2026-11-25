@@ -21,6 +21,7 @@ import PRsScreen from "./screens/PRsScreen";
 import HistoryScreen from "./screens/HistoryScreen";
 import OpenGymLanding from "./screens/OpenGymLanding";
 import TimerScreen from "./screens/TimerScreen";
+
 import CalculatorScreen from "./screens/CalculatorScreen";
 import PacManScreen from "./screens/PacManScreen";
 import AppHeader from "./components/AppHeader";
